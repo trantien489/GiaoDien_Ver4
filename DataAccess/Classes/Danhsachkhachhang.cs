@@ -8,7 +8,6 @@ namespace DataAccess
 {
     public class Danhsachkhachhang
     {
-
         public int num { get; set; }
         public string Makhachhang { get; set; }
         public string Tenkhachhang { get; set; }
