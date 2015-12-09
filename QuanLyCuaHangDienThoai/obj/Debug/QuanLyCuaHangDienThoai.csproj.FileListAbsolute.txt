@@ -66,3 +66,6 @@ F:\HKi 3\Lập trình Windows\Tài Liệu\GiaoDien_Ver4\QuanLyCuaHangDienThoai\o
 F:\HKi 3\Lập trình Windows\Tài Liệu\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHangDienThoai.user.resources
 F:\HKi 3\Lập trình Windows\Tài Liệu\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHangDienThoai.csproj.GenerateResource.Cache
 F:\HKi 3\Lập trình Windows\Tài Liệu\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHangDienThoai.exe.licenses
+D:\ky 3\giao diện\GiaoDien_Ver4\QuanLyCuaHangDienThoai\bin\Debug\QuanLyCuaHangDienThoai.exe.config
+D:\ky 3\giao diện\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHangDienThoai.exe
+D:\ky 3\giao diện\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHangDienThoai.pdb
