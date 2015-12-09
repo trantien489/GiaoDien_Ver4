@@ -1,0 +1,11 @@
+D:\ky 3\DSA\DataAccess\DataAccess\bin\Debug\DataAccess.exe.config
+D:\ky 3\DSA\DataAccess\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+D:\ky 3\DSA\DataAccess\DataAccess\bin\Debug\DataAccess.exe
+D:\ky 3\DSA\DataAccess\DataAccess\bin\Debug\DataAccess.pdb
+D:\ky 3\DSA\DataAccess\DataAccess\bin\Debug\DatabaseLid.exe
+D:\ky 3\DSA\DataAccess\DataAccess\bin\Debug\DatabaseLid.pdb
+D:\ky 3\DSA\DataAccess\DataAccess\obj\Debug\DataAccess.exe
+D:\ky 3\DSA\DataAccess\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\trantien\Desktop\Giaodien\DataAccess\bin\Debug\DataAccess.exe.config
+C:\Users\trantien\Desktop\Giaodien\DataAccess\obj\Debug\DataAccess.exe
+C:\Users\trantien\Desktop\Giaodien\DataAccess\obj\Debug\DataAccess.pdb

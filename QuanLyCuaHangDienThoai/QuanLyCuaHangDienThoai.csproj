@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3373B451-706B-4564-9A6C-F22B03C0B02B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QuanLyCuaHangDienThoai</RootNamespace>
+    <AssemblyName>QuanLyCuaHangDienThoai</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v15.1.Core, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Sparkline.v15.1.Core, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraNavBar.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin.Designer.cs">
+      <DependentUpon>admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Danhsachhanghoa\capnhapanh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Danhsachhanghoa\capnhapanh.Designer.cs">
+      <DependentUpon>capnhapanh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dangnhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dangnhap.Designer.cs">
+      <DependentUpon>dangnhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Danhsachhanghoa\EditPicture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Danhsachhanghoa\EditPicture.Designer.cs">
+      <DependentUpon>EditPicture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="User control\ucDanhsachhanghoa.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User control\ucDanhsachhanghoa.Designer.cs">
+      <DependentUpon>ucDanhsachhanghoa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User control\usAdmin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User control\usAdmin.Designer.cs">
+      <DependentUpon>usAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="user.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="user.Designer.cs">
+      <DependentUpon>user.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="admin.resx">
+      <DependentUpon>admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Danhsachhanghoa\capnhapanh.resx">
+      <DependentUpon>capnhapanh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dangnhap.resx">
+      <DependentUpon>dangnhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Danhsachhanghoa\EditPicture.resx">
+      <DependentUpon>EditPicture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="User control\ucDanhsachhanghoa.resx">
+      <DependentUpon>ucDanhsachhanghoa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User control\usAdmin.resx">
+      <DependentUpon>usAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="user.resx">
+      <DependentUpon>user.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\DataSources\DataAccess.Danhsachhanghoa.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataAccess\DataAccess.csproj">
+      <Project>{04714f04-8d7e-4596-a161-b49da7de6f76}</Project>
+      <Name>DataAccess</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
