@@ -87,6 +87,12 @@
     <Compile Include="User control\ucDanhsachhanghoa.Designer.cs">
       <DependentUpon>ucDanhsachhanghoa.cs</DependentUpon>
     </Compile>
+    <Compile Include="User control\ucDanhsachkhachhang.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User control\ucDanhsachkhachhang.Designer.cs">
+      <DependentUpon>ucDanhsachkhachhang.cs</DependentUpon>
+    </Compile>
     <Compile Include="User control\usAdmin.cs">
       <SubType>UserControl</SubType>
     </Compile>

@@ -23,3 +23,6 @@ C:\Users\trantien\Desktop\Giaodien\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHan
 C:\Users\trantien\Desktop\Giaodien\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHangDienThoai.capnhapanh.resources
 C:\Users\trantien\Desktop\Giaodien\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHangDienThoai.EditPicture.resources
 C:\Users\trantien\Desktop\Giaodien\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHangDienThoai.User_control.usAdmin.resources
+D:\LTWIN\GiaoDien_Ver4\QuanLyCuaHangDienThoai\bin\Debug\QuanLyCuaHangDienThoai.exe.config
+D:\LTWIN\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHangDienThoai.exe
+D:\LTWIN\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHangDienThoai.pdb
