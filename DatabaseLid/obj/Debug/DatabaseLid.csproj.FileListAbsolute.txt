@@ -4,3 +4,9 @@ D:\ky 3\DSA\DataAccess\DatabaseLid\bin\Debug\DatabaseLid.pdb
 D:\ky 3\DSA\DataAccess\DatabaseLid\obj\Debug\DatabaseLid.csprojResolveAssemblyReference.cache
 D:\ky 3\DSA\DataAccess\DatabaseLid\obj\Debug\DatabaseLid.exe
 D:\ky 3\DSA\DataAccess\DatabaseLid\obj\Debug\DatabaseLid.pdb
+C:\Users\trantien\Desktop\GiaoDien_Ver4\DatabaseLid\bin\Debug\DatabaseLid.exe.config
+C:\Users\trantien\Desktop\GiaoDien_Ver4\DatabaseLid\bin\Debug\DatabaseLid.exe
+C:\Users\trantien\Desktop\GiaoDien_Ver4\DatabaseLid\bin\Debug\DatabaseLid.pdb
+C:\Users\trantien\Desktop\GiaoDien_Ver4\DatabaseLid\obj\Debug\DatabaseLid.csprojResolveAssemblyReference.cache
+C:\Users\trantien\Desktop\GiaoDien_Ver4\DatabaseLid\obj\Debug\DatabaseLid.exe
+C:\Users\trantien\Desktop\GiaoDien_Ver4\DatabaseLid\obj\Debug\DatabaseLid.pdb

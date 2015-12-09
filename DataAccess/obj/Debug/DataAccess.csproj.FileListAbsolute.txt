@@ -9,3 +9,11 @@ D:\ky 3\DSA\DataAccess\DataAccess\obj\Debug\DataAccess.pdb
 C:\Users\trantien\Desktop\Giaodien\DataAccess\bin\Debug\DataAccess.exe.config
 C:\Users\trantien\Desktop\Giaodien\DataAccess\obj\Debug\DataAccess.exe
 C:\Users\trantien\Desktop\Giaodien\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\trantien\Desktop\GiaoDien_Ver4\DataAccess\bin\Debug\DataAccess.exe.config
+C:\Users\trantien\Desktop\GiaoDien_Ver4\DataAccess\bin\Debug\DataAccess.exe
+C:\Users\trantien\Desktop\GiaoDien_Ver4\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\trantien\Desktop\GiaoDien_Ver4\DataAccess\bin\Debug\DatabaseLid.exe
+C:\Users\trantien\Desktop\GiaoDien_Ver4\DataAccess\bin\Debug\DatabaseLid.pdb
+C:\Users\trantien\Desktop\GiaoDien_Ver4\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\trantien\Desktop\GiaoDien_Ver4\DataAccess\obj\Debug\DataAccess.exe
+C:\Users\trantien\Desktop\GiaoDien_Ver4\DataAccess\obj\Debug\DataAccess.pdb

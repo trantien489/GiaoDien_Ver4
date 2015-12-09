@@ -8,10 +8,8 @@ namespace DataAccess
 {
     public class Danhsachkhachhang
     {
-        public static int _num = 0;
-        public Danhsachkhachhang()
-        { _num++; }
-        public int num { get { return _num; } }
+
+        public int num { get; set; }
         public string Makhachhang { get; set; }
         public string Tenkhachhang { get; set; }
         public DateTime Ngaysinh { get; set; }
