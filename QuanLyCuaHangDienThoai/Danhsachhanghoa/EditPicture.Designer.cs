@@ -42,7 +42,7 @@
             this.btnSave.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSave.Appearance.Options.UseFont = true;
             this.btnSave.Image = ((System.Drawing.Image)(resources.GetObject("btnSave.Image")));
-            this.btnSave.Location = new System.Drawing.Point(157, 337);
+            this.btnSave.Location = new System.Drawing.Point(208, 337);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(102, 45);
             this.btnSave.TabIndex = 5;
@@ -54,7 +54,7 @@
             this.btbOpenFile.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btbOpenFile.Appearance.Options.UseFont = true;
             this.btbOpenFile.Image = ((System.Drawing.Image)(resources.GetObject("btbOpenFile.Image")));
-            this.btbOpenFile.Location = new System.Drawing.Point(32, 336);
+            this.btbOpenFile.Location = new System.Drawing.Point(83, 336);
             this.btbOpenFile.Name = "btbOpenFile";
             this.btbOpenFile.Size = new System.Drawing.Size(115, 45);
             this.btbOpenFile.TabIndex = 6;
@@ -73,7 +73,7 @@
             // 
             this.pictureBox.Location = new System.Drawing.Point(26, 10);
             this.pictureBox.Name = "pictureBox";
-            this.pictureBox.Size = new System.Drawing.Size(256, 321);
+            this.pictureBox.Size = new System.Drawing.Size(330, 321);
             this.pictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox.TabIndex = 3;
             this.pictureBox.TabStop = false;
@@ -86,7 +86,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(308, 385);
+            this.ClientSize = new System.Drawing.Size(380, 385);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.btbOpenFile);
             this.Controls.Add(this.txtimage);
