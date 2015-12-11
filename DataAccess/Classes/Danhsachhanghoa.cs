@@ -8,8 +8,8 @@ namespace DataAccess
 {
     public class Danhsachhanghoa
     {
-        public int stt { get; set; }
         public string Mahang { get; set; }
+        public int stt { get; set; }      
         public string Tenhang { get; set; }
         public string Thuonghieu { get; set; }
         public string Xuatxu { get; set; }
