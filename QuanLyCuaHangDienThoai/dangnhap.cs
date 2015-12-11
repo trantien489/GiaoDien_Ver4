@@ -70,8 +70,6 @@ namespace QuanLyCuaHangDienThoai
         {
             if (e.KeyCode == Keys.Enter)
             {
-                //MessageBox.Show("Enter key pressed");
-                //btnDangNhap.PerformClick();
                 btnDangNhap_Click(sender, e);
             }
         }
@@ -80,12 +78,7 @@ namespace QuanLyCuaHangDienThoai
         {
             if (e.KeyCode == Keys.Enter)
             {
-                //MessageBox.Show("Enter key pressed");
-                //btnDangNhap.Select();
-                //btnDangNhap.Focus();
-                //this.btnDangNhap.PerformClick();
-                btnDangNhap_Click(sender,e);
-                
+                btnDangNhap_Click(sender,e);          
             }
         }
 

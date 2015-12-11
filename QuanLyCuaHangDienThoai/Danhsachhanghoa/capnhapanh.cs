@@ -36,7 +36,7 @@ namespace QuanLyCuaHangDienThoai
             }
             catch (Exception)
             {
-                MessageBox.Show("Lỗi");
+                MessageBox.Show("Chưa chọn ảnh");
                 throw;
             }
         }
