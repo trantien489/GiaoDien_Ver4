@@ -86,3 +86,20 @@ D:\ky 3\giao diện\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHang
 D:\ky 3\giao diện\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHangDienThoai.user.resources
 D:\ky 3\giao diện\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHangDienThoai.csproj.GenerateResource.Cache
 D:\ky 3\giao diện\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHangDienThoai.exe.licenses
+D:\LTWIN\GiaoDien_Ver4\QuanLyCuaHangDienThoai\bin\Debug\QuanLyCuaHangDienThoai.exe
+D:\LTWIN\GiaoDien_Ver4\QuanLyCuaHangDienThoai\bin\Debug\QuanLyCuaHangDienThoai.pdb
+D:\LTWIN\GiaoDien_Ver4\QuanLyCuaHangDienThoai\bin\Debug\DataAccess.exe
+D:\LTWIN\GiaoDien_Ver4\QuanLyCuaHangDienThoai\bin\Debug\DatabaseLid.exe
+D:\LTWIN\GiaoDien_Ver4\QuanLyCuaHangDienThoai\bin\Debug\DataAccess.pdb
+D:\LTWIN\GiaoDien_Ver4\QuanLyCuaHangDienThoai\bin\Debug\DatabaseLid.pdb
+D:\LTWIN\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHangDienThoai.csprojResolveAssemblyReference.cache
+D:\LTWIN\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHangDienThoai.admin.resources
+D:\LTWIN\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHangDienThoai.capnhapanh.resources
+D:\LTWIN\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHangDienThoai.dangnhap.resources
+D:\LTWIN\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHangDienThoai.EditPicture.resources
+D:\LTWIN\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHangDienThoai.Properties.Resources.resources
+D:\LTWIN\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHangDienThoai.User_control.ucDanhsachhanghoa.resources
+D:\LTWIN\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHangDienThoai.User_control.usAdmin.resources
+D:\LTWIN\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHangDienThoai.user.resources
+D:\LTWIN\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHangDienThoai.csproj.GenerateResource.Cache
+D:\LTWIN\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHangDienThoai.exe.licenses

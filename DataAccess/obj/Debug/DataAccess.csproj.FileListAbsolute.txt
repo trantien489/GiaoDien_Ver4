@@ -25,3 +25,11 @@ F:\HKi 3\Lập trình Windows\Tài Liệu\GiaoDien_Ver4\DataAccess\bin\Debug\Dat
 F:\HKi 3\Lập trình Windows\Tài Liệu\GiaoDien_Ver4\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
 F:\HKi 3\Lập trình Windows\Tài Liệu\GiaoDien_Ver4\DataAccess\obj\Debug\DataAccess.exe
 F:\HKi 3\Lập trình Windows\Tài Liệu\GiaoDien_Ver4\DataAccess\obj\Debug\DataAccess.pdb
+D:\LTWIN\GiaoDien_Ver4\DataAccess\bin\Debug\DataAccess.exe.config
+D:\LTWIN\GiaoDien_Ver4\DataAccess\bin\Debug\DataAccess.exe
+D:\LTWIN\GiaoDien_Ver4\DataAccess\bin\Debug\DataAccess.pdb
+D:\LTWIN\GiaoDien_Ver4\DataAccess\bin\Debug\DatabaseLid.exe
+D:\LTWIN\GiaoDien_Ver4\DataAccess\bin\Debug\DatabaseLid.pdb
+D:\LTWIN\GiaoDien_Ver4\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+D:\LTWIN\GiaoDien_Ver4\DataAccess\obj\Debug\DataAccess.exe
+D:\LTWIN\GiaoDien_Ver4\DataAccess\obj\Debug\DataAccess.pdb
