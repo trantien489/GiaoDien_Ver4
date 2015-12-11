@@ -10,3 +10,9 @@ C:\Users\trantien\Desktop\GiaoDien_Ver4\DatabaseLid\bin\Debug\DatabaseLid.pdb
 C:\Users\trantien\Desktop\GiaoDien_Ver4\DatabaseLid\obj\Debug\DatabaseLid.csprojResolveAssemblyReference.cache
 C:\Users\trantien\Desktop\GiaoDien_Ver4\DatabaseLid\obj\Debug\DatabaseLid.exe
 C:\Users\trantien\Desktop\GiaoDien_Ver4\DatabaseLid\obj\Debug\DatabaseLid.pdb
+F:\HKi 3\Lập trình Windows\Tài Liệu\GiaoDien_Ver4\DatabaseLid\bin\Debug\DatabaseLid.exe.config
+F:\HKi 3\Lập trình Windows\Tài Liệu\GiaoDien_Ver4\DatabaseLid\bin\Debug\DatabaseLid.exe
+F:\HKi 3\Lập trình Windows\Tài Liệu\GiaoDien_Ver4\DatabaseLid\bin\Debug\DatabaseLid.pdb
+F:\HKi 3\Lập trình Windows\Tài Liệu\GiaoDien_Ver4\DatabaseLid\obj\Debug\DatabaseLid.csprojResolveAssemblyReference.cache
+F:\HKi 3\Lập trình Windows\Tài Liệu\GiaoDien_Ver4\DatabaseLid\obj\Debug\DatabaseLid.exe
+F:\HKi 3\Lập trình Windows\Tài Liệu\GiaoDien_Ver4\DatabaseLid\obj\Debug\DatabaseLid.pdb
