@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace QuanLyCuaHangDienThoai.User_control
 {
-    public partial class ucDanhsachkhachhang: UserControl
+    public partial class ucKhachhangthanthiet : UserControl
     {
-        public ucDanhsachkhachhang()
+        public ucKhachhangthanthiet()
         {
             InitializeComponent();
-        }
-
-        private void panelControl1_Paint(object sender, PaintEventArgs e)
-        {
-
         }
     }
 }

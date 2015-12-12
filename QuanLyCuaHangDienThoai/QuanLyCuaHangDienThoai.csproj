@@ -81,6 +81,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="User control\ucKhachhangthanthiet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User control\ucKhachhangthanthiet.Designer.cs">
+      <DependentUpon>ucKhachhangthanthiet.cs</DependentUpon>
+    </Compile>
     <Compile Include="User control\ucDanhsachhanghoa.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -92,6 +98,12 @@
     </Compile>
     <Compile Include="User control\ucDanhsachkhachhang.Designer.cs">
       <DependentUpon>ucDanhsachkhachhang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User control\ucKhachhangthongthuong.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User control\ucKhachhangthongthuong.Designer.cs">
+      <DependentUpon>ucKhachhangthongthuong.cs</DependentUpon>
     </Compile>
     <Compile Include="User control\usAdmin.cs">
       <SubType>UserControl</SubType>
@@ -126,9 +138,19 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="User control\ucKhachhangthanthiet.resx">
+      <DependentUpon>ucKhachhangthanthiet.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="User control\ucDanhsachhanghoa.resx">
       <DependentUpon>ucDanhsachhanghoa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User control\ucDanhsachkhachhang.resx">
+      <DependentUpon>ucDanhsachkhachhang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User control\ucKhachhangthongthuong.resx">
+      <DependentUpon>ucKhachhangthongthuong.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="User control\usAdmin.resx">
       <DependentUpon>usAdmin.cs</DependentUpon>
@@ -156,7 +178,18 @@
       <Name>DataAccess</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_trash-it.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Actions-document-edit-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Apply.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -33,5 +33,29 @@ namespace QuanLyCuaHangDienThoai
             frm.Dock = System.Windows.Forms.DockStyle.Fill;
             panelControl1.Controls.Add(frm);
         }
+
+        private void navBarDSKhachHang_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
+        {
+            panelControl1.Controls.Clear();
+            ucDanhsachkhachhang frm = new ucDanhsachkhachhang();
+            frm.Dock = System.Windows.Forms.DockStyle.Fill;
+            panelControl1.Controls.Add(frm);
+        }
+
+        private void navBarKHThanThiet_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
+        {
+            panelControl1.Controls.Clear();
+            ucKhachhangthanthiet frm = new ucKhachhangthanthiet();
+            frm.Dock = System.Windows.Forms.DockStyle.Fill;
+            panelControl1.Controls.Add(frm);
+        }
+
+        private void navBarKHThongThuong_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
+        {
+            panelControl1.Controls.Clear();
+            ucKhachhangthongthuong frm = new ucKhachhangthongthuong();
+            frm.Dock = System.Windows.Forms.DockStyle.Fill;
+            panelControl1.Controls.Add(frm);
+        }
     }
 }

@@ -114,6 +114,7 @@
             // 
             this.navBarKHThongThuong.Caption = "Khách hàng thông thường";
             this.navBarKHThongThuong.Name = "navBarKHThongThuong";
+            this.navBarKHThongThuong.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.navBarKHThongThuong_LinkClicked);
             // 
             // navBarSeparatorItem3
             // 
@@ -130,6 +131,7 @@
             // 
             this.navBarKHThanThiet.Caption = "Khách hàng thân thiết";
             this.navBarKHThanThiet.Name = "navBarKHThanThiet";
+            this.navBarKHThanThiet.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.navBarKHThanThiet_LinkClicked);
             // 
             // navBarSeparatorItem1
             // 
@@ -146,6 +148,7 @@
             // 
             this.navBarDSKhachHang.Caption = "Danh sách khách hàng";
             this.navBarDSKhachHang.Name = "navBarDSKhachHang";
+            this.navBarDSKhachHang.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.navBarDSKhachHang_LinkClicked);
             // 
             // navBarQLKhachHang
             // 
