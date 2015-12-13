@@ -122,7 +122,8 @@ namespace QuanLyCuaHangDienThoai.User_control
             {
                 Model.Suadanhsachhanghoa(cur, cur.GetType().Name);
             }
-            bdnDanhsachhanghoa.DataSource = Model.GetDanhsachhanghoaItems();
+            ucDanhsachhanghoa_Load(sender, e);
+            //bdnDanhsachhanghoa.DataSource = Model.GetDanhsachhanghoaItems();
         }
     }
 }

@@ -166,8 +166,8 @@
             // gridView1
             // 
             this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
-            this.colstt,
             this.colMahang,
+            this.colstt,
             this.colTenhang,
             this.colThuonghieu,
             this.colXuatxu,
@@ -177,6 +177,8 @@
             this.gridView1.GridControl = this.gcDanhsachhanghoa;
             this.gridView1.Name = "gridView1";
             this.gridView1.OptionsView.ShowAutoFilterRow = true;
+            this.gridView1.SortInfo.AddRange(new DevExpress.XtraGrid.Columns.GridColumnSortInfo[] {
+            new DevExpress.XtraGrid.Columns.GridColumnSortInfo(this.colstt, DevExpress.Data.ColumnSortOrder.Ascending)});
             // 
             // colstt
             // 
