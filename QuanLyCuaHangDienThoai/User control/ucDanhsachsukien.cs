@@ -83,5 +83,7 @@ namespace QuanLyCuaHangDienThoai.User_control
             }
             ucDanhsachsukien_Load(sender, e);
         }
+
+      
     }
 }
