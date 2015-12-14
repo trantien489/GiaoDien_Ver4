@@ -82,6 +82,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="User control\ucDanhsachsukien.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User control\ucDanhsachsukien.Designer.cs">
+      <DependentUpon>ucDanhsachsukien.cs</DependentUpon>
+    </Compile>
     <Compile Include="User control\ucKhachhangthanthiet.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -141,6 +147,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="User control\ucDanhsachsukien.resx">
+      <DependentUpon>ucDanhsachsukien.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="User control\ucKhachhangthanthiet.resx">
       <DependentUpon>ucKhachhangthanthiet.cs</DependentUpon>
     </EmbeddedResource>

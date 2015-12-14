@@ -44,3 +44,11 @@ D:\ky 3\giao diện\GiaoDien_Ver4\DataAccess\obj\Debug\DataAccess.csprojResolveA
 D:\ky 3\giao diện\GiaoDien_Ver4\DataAccess\obj\Debug\DataAccess.exe
 D:\ky 3\giao diện\GiaoDien_Ver4\DataAccess\obj\Debug\DataAccess.pdb
 >>>>>>> b556a0817be6f4e4c0d34e884b8313dc24c717a3
+F:\HKi 3\Lập trình Windows\2015_11\GiaoDien_Ver4\DataAccess\bin\Debug\DataAccess.exe.config
+F:\HKi 3\Lập trình Windows\2015_11\GiaoDien_Ver4\DataAccess\bin\Debug\DataAccess.exe
+F:\HKi 3\Lập trình Windows\2015_11\GiaoDien_Ver4\DataAccess\bin\Debug\DataAccess.pdb
+F:\HKi 3\Lập trình Windows\2015_11\GiaoDien_Ver4\DataAccess\bin\Debug\DatabaseLid.exe
+F:\HKi 3\Lập trình Windows\2015_11\GiaoDien_Ver4\DataAccess\bin\Debug\DatabaseLid.pdb
+F:\HKi 3\Lập trình Windows\2015_11\GiaoDien_Ver4\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+F:\HKi 3\Lập trình Windows\2015_11\GiaoDien_Ver4\DataAccess\obj\Debug\DataAccess.exe
+F:\HKi 3\Lập trình Windows\2015_11\GiaoDien_Ver4\DataAccess\obj\Debug\DataAccess.pdb

@@ -109,3 +109,27 @@ D:\LTWIN\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHangDienThoai.U
 D:\ky 3\giao diện\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHangDienThoai.User_control.ucKhachhangthanthiet.resources
 D:\ky 3\giao diện\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHangDienThoai.User_control.ucDanhsachkhachhang.resources
 D:\ky 3\giao diện\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHangDienThoai.User_control.ucKhachhangthongthuong.resources
+F:\HKi 3\Lập trình Windows\2015_11\GiaoDien_Ver4\QuanLyCuaHangDienThoai\bin\Debug\QuanLyCuaHangDienThoai.exe.config
+F:\HKi 3\Lập trình Windows\2015_11\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHangDienThoai.exe
+F:\HKi 3\Lập trình Windows\2015_11\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHangDienThoai.pdb
+F:\HKi 3\Lập trình Windows\2015_11\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHangDienThoai.csprojResolveAssemblyReference.cache
+F:\HKi 3\Lập trình Windows\2015_11\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHangDienThoai.admin.resources
+F:\HKi 3\Lập trình Windows\2015_11\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHangDienThoai.capnhapanh.resources
+F:\HKi 3\Lập trình Windows\2015_11\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHangDienThoai.dangnhap.resources
+F:\HKi 3\Lập trình Windows\2015_11\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHangDienThoai.EditPicture.resources
+F:\HKi 3\Lập trình Windows\2015_11\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHangDienThoai.Properties.Resources.resources
+F:\HKi 3\Lập trình Windows\2015_11\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHangDienThoai.User_control.ucDanhsachsukien.resources
+F:\HKi 3\Lập trình Windows\2015_11\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHangDienThoai.User_control.ucKhachhangthanthiet.resources
+F:\HKi 3\Lập trình Windows\2015_11\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHangDienThoai.User_control.ucDanhsachhanghoa.resources
+F:\HKi 3\Lập trình Windows\2015_11\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHangDienThoai.User_control.ucDanhsachkhachhang.resources
+F:\HKi 3\Lập trình Windows\2015_11\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHangDienThoai.User_control.ucKhachhangthongthuong.resources
+F:\HKi 3\Lập trình Windows\2015_11\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHangDienThoai.User_control.usAdmin.resources
+F:\HKi 3\Lập trình Windows\2015_11\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHangDienThoai.user.resources
+F:\HKi 3\Lập trình Windows\2015_11\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHangDienThoai.csproj.GenerateResource.Cache
+F:\HKi 3\Lập trình Windows\2015_11\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHangDienThoai.exe.licenses
+F:\HKi 3\Lập trình Windows\2015_11\GiaoDien_Ver4\QuanLyCuaHangDienThoai\bin\Debug\QuanLyCuaHangDienThoai.exe
+F:\HKi 3\Lập trình Windows\2015_11\GiaoDien_Ver4\QuanLyCuaHangDienThoai\bin\Debug\QuanLyCuaHangDienThoai.pdb
+F:\HKi 3\Lập trình Windows\2015_11\GiaoDien_Ver4\QuanLyCuaHangDienThoai\bin\Debug\DataAccess.exe
+F:\HKi 3\Lập trình Windows\2015_11\GiaoDien_Ver4\QuanLyCuaHangDienThoai\bin\Debug\DatabaseLid.exe
+F:\HKi 3\Lập trình Windows\2015_11\GiaoDien_Ver4\QuanLyCuaHangDienThoai\bin\Debug\DataAccess.pdb
+F:\HKi 3\Lập trình Windows\2015_11\GiaoDien_Ver4\QuanLyCuaHangDienThoai\bin\Debug\DatabaseLid.pdb
