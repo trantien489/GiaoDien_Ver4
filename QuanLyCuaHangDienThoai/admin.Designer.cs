@@ -101,6 +101,7 @@
             // 
             this.navBarDSSuKien.Caption = "Danh sách sự kiện";
             this.navBarDSSuKien.Name = "navBarDSSuKien";
+            this.navBarDSSuKien.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.navBarDSSuKien_LinkClicked);
             // 
             // navBarGroup3
             // 

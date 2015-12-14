@@ -125,6 +125,7 @@
             // 
             // gcDanhsachsukien
             // 
+            this.gcDanhsachsukien.DataSource = this.bdsDanhsachsukien;
             this.gcDanhsachsukien.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.gcDanhsachsukien.Location = new System.Drawing.Point(0, 141);
             this.gcDanhsachsukien.MainView = this.gridView1;
@@ -133,6 +134,10 @@
             this.gcDanhsachsukien.TabIndex = 9;
             this.gcDanhsachsukien.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
+            // 
+            // bdsDanhsachsukien
+            // 
+            this.bdsDanhsachsukien.DataSource = typeof(DataAccess.Danhsachsukien);
             // 
             // btnSua
             // 
