@@ -55,7 +55,7 @@ namespace QuanLyCuaHangDienThoai.User_control
             {
                 Model.XoaDanhsachhanghoa(cur, cur.GetType().Name);
             }
-            var sql = "delete from Hinhanh where Mahang = " + "'" + cur.Mahang + "'";
+            var sql = "delete from HinhAnh where Mahang = " + "'" + cur.Mahang + "'";
             Model.DeletePicture(sql);
             bdnDanhsachhanghoa.DataSource = Model.GetDanhsachhanghoaItems();     
         }
@@ -82,8 +82,12 @@ namespace QuanLyCuaHangDienThoai.User_control
                 var sql = "select Mahang, Count(Mahang) from Hinhanh where Mahang = " + "'" + cur.Mahang + "'" + "group by Mahang";
                 if (Model.dangnhap(sql) == 1)
                 {
-                    DataGV.DataSource = Model.GetPictureHanghoa(cur.Mahang);
-                    Image hinh = ByteArrayToImage((byte[])DataGV.CurrentRow.Cells[0].Value);
+                    //DataGV.DataSource = Model.GetPictureHanghoa(cur.Mahang);
+                    //Image hinh = ByteArrayToImage((byte[])DataGV.CurrentRow.Cells[0].Value);
+                    //pictureDSHH.Image = hinh;
+                    //ResetControlValues(DataGV);
+                    bdsHinhanh.DataSource = Model.GetPicture(cur.Mahang);
+                    Image hinh = ByteArrayToImage((byte[])DataGV.CurrentRow.Cells[1].Value);                  
                     pictureDSHH.Image = hinh;
                     ResetControlValues(DataGV);
                 }

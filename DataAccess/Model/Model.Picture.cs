@@ -17,6 +17,7 @@ namespace DataAccess
         public static int ChenAnh(string Mahang, string filename)
         {
             var sql = "insert into Hinhanh(Mahang,Hinhanh) values(@Mahang,@Hinhanh)";
+            //var sql = "update Danhsachkhachhang set Hinhanh = @Hinhanh where Makhachhang =" + Mahang;
             byte[] ImageData = null;
             using (FileStream fs = new FileStream(filename, FileMode.Open, FileAccess.Read))
             {
@@ -66,6 +67,11 @@ namespace DataAccess
         {
             string sql = "select Hinhanh from Hinhanh where Mahang = " + "'" + s + "'";
             return db.GetDataTable(sql);
+        }
+        public static List<HinhAnh> GetPicture(string s)
+        {
+            string sql = "select * from HinhAnh where Mahang = " + "'" + s + "'";
+            return db.GetList<HinhAnh>(sql);
         }
         public static int DeletePicture(string s)
         {

@@ -39,7 +39,6 @@ namespace DataAccess
         }
         public static int UploadPicture(string cmd, List<SqlParameter> param)
         {
-
             return db.ExecuteNonQuery(cmd, param);
         }
 
