@@ -26,17 +26,22 @@ namespace QuanLyCuaHangDienThoai.User_control
         private void usAdmin_Load(object sender, EventArgs e)
         {
             //var cur = bdnDanhsachhanghoa.Current as Danhsachhanghoa;
-            var sql = "select Mahang, Count(Mahang) from Hinhanh where Mahang = 'admin' group by Mahang";
+            var sql = "select Mahang, Count(Mahang) from HinhAnh where Mahang = 'admin' group by Mahang";
             if (Model.dangnhap(sql) == 1)
             {
-                DataGV.DataSource = Model.GetPictureHanghoa("admin");
-                Image hinh = ByteArrayToImage((byte[])DataGV.CurrentRow.Cells[0].Value);
+                bdsHinhanh.DataSource = Model.GetPicture("admin");
+                Image hinh = ByteArrayToImage((byte[])DataGV.CurrentRow.Cells[1].Value);   
                 pictureBox.Image = hinh;               
              }
              else
              {
                  pictureBox.Image = null;
              }
+        }
+
+        private void pictureBox_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

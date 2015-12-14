@@ -28,14 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
+            this.DataGV = new System.Windows.Forms.DataGridView();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.pictureBox = new System.Windows.Forms.PictureBox();
-            this.DataGV = new System.Windows.Forms.DataGridView();
+            this.bdsHinhanh = new System.Windows.Forms.BindingSource(this.components);
+            this.mahangDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.hinhanhDataGridViewImageColumn = new System.Windows.Forms.DataGridViewImageColumn();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DataGV)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bdsHinhanh)).BeginInit();
             this.SuspendLayout();
             // 
             // panelControl1
@@ -47,6 +52,21 @@
             this.panelControl1.Name = "panelControl1";
             this.panelControl1.Size = new System.Drawing.Size(909, 66);
             this.panelControl1.TabIndex = 0;
+            // 
+            // DataGV
+            // 
+            this.DataGV.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.DataGV.AutoGenerateColumns = false;
+            this.DataGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DataGV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.mahangDataGridViewTextBoxColumn,
+            this.hinhanhDataGridViewImageColumn});
+            this.DataGV.DataSource = this.bdsHinhanh;
+            this.DataGV.Location = new System.Drawing.Point(850, 0);
+            this.DataGV.Name = "DataGV";
+            this.DataGV.Size = new System.Drawing.Size(59, 14);
+            this.DataGV.TabIndex = 1;
+            this.DataGV.Visible = false;
             // 
             // labelControl1
             // 
@@ -68,15 +88,23 @@
             this.pictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox.TabIndex = 1;
             this.pictureBox.TabStop = false;
+            this.pictureBox.Click += new System.EventHandler(this.pictureBox_Click);
             // 
-            // DataGV
+            // bdsHinhanh
             // 
-            this.DataGV.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.DataGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DataGV.Location = new System.Drawing.Point(899, 0);
-            this.DataGV.Name = "DataGV";
-            this.DataGV.Size = new System.Drawing.Size(10, 10);
-            this.DataGV.TabIndex = 1;
+            this.bdsHinhanh.DataSource = typeof(DataAccess.HinhAnh);
+            // 
+            // mahangDataGridViewTextBoxColumn
+            // 
+            this.mahangDataGridViewTextBoxColumn.DataPropertyName = "Mahang";
+            this.mahangDataGridViewTextBoxColumn.HeaderText = "Mahang";
+            this.mahangDataGridViewTextBoxColumn.Name = "mahangDataGridViewTextBoxColumn";
+            // 
+            // hinhanhDataGridViewImageColumn
+            // 
+            this.hinhanhDataGridViewImageColumn.DataPropertyName = "Hinhanh";
+            this.hinhanhDataGridViewImageColumn.HeaderText = "Hinhanh";
+            this.hinhanhDataGridViewImageColumn.Name = "hinhanhDataGridViewImageColumn";
             // 
             // usAdmin
             // 
@@ -90,8 +118,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);
             this.panelControl1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.DataGV)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bdsHinhanh)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -102,5 +131,8 @@
         private DevExpress.XtraEditors.LabelControl labelControl1;
         private System.Windows.Forms.PictureBox pictureBox;
         private System.Windows.Forms.DataGridView DataGV;
+        private System.Windows.Forms.DataGridViewTextBoxColumn mahangDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewImageColumn hinhanhDataGridViewImageColumn;
+        private System.Windows.Forms.BindingSource bdsHinhanh;
     }
 }

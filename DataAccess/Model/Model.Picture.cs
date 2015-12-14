@@ -41,7 +41,7 @@ namespace DataAccess
         }
         public static int SuaAnh(string Mahang, string filename)
         {
-            var sql = "update Hinhanh set Mahang = @Mahang, Hinhanh = @Hinhanh where Mahang =@Mahang";
+            var sql = "update HinhAnh set Mahang = @Mahang, Hinhanh = @Hinhanh where Mahang =@Mahang";
             byte[] ImageData = null;
             using (FileStream fs = new FileStream(filename, FileMode.Open, FileAccess.Read))
             {
@@ -65,7 +65,7 @@ namespace DataAccess
         }
         public static DataTable GetPictureHanghoa(string s)
         {
-            string sql = "select Hinhanh from Hinhanh where Mahang = " + "'" + s + "'";
+            string sql = "select HinhAnh from Hinhanh where Mahang = " + "'" + s + "'";
             return db.GetDataTable(sql);
         }
         public static List<HinhAnh> GetPicture(string s)

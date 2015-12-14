@@ -28,82 +28,91 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            System.Windows.Forms.Label sdtLabel;
+            System.Windows.Forms.Label ngaysinhLabel;
+            System.Windows.Forms.Label cmndLabel;
+            System.Windows.Forms.Label diachiLabel;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ucKhachhangthongthuong));
-            this.colGiaban = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colSoluong = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colXuatxu = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colThuonghieu = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colTenhang = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colMahang = new DevExpress.XtraGrid.Columns.GridColumn();
             this.btnSua = new DevExpress.XtraEditors.SimpleButton();
             this.btnXoa = new DevExpress.XtraEditors.SimpleButton();
             this.btnAdd = new DevExpress.XtraEditors.SimpleButton();
-            this.colstt = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
-            this.colGianhap = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gcDanhsachhanghoa = new DevExpress.XtraGrid.GridControl();
             this.btnThemDong = new DevExpress.XtraEditors.SimpleButton();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.pictureDSHH = new System.Windows.Forms.PictureBox();
+            this.pictureDSKH = new System.Windows.Forms.PictureBox();
             this.btnSuaAnh = new DevExpress.XtraEditors.SimpleButton();
             this.btnThemAnh = new DevExpress.XtraEditors.SimpleButton();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gcDanhsachhanghoa)).BeginInit();
+            this.bdsDanhsachkhachhang = new System.Windows.Forms.BindingSource(this.components);
+            this.gcDanhsachkhachhang = new DevExpress.XtraGrid.GridControl();
+            this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.colMakhachhang = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colTenkhachhang = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colGioitinh = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colTaikhoan = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colMatkhau = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colCapbac = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.sdtTextBox = new System.Windows.Forms.TextBox();
+            this.ngaysinhDateTimePicker = new System.Windows.Forms.DateTimePicker();
+            this.cmndTextBox = new System.Windows.Forms.TextBox();
+            this.diachiTextBox = new System.Windows.Forms.TextBox();
+            this.bdsHinhanh = new System.Windows.Forms.BindingSource(this.components);
+            this.DataGV = new System.Windows.Forms.DataGridView();
+            this.mahangDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.hinhanhDataGridViewImageColumn = new System.Windows.Forms.DataGridViewImageColumn();
+            sdtLabel = new System.Windows.Forms.Label();
+            ngaysinhLabel = new System.Windows.Forms.Label();
+            cmndLabel = new System.Windows.Forms.Label();
+            diachiLabel = new System.Windows.Forms.Label();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureDSHH)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureDSKH)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bdsDanhsachkhachhang)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gcDanhsachkhachhang)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
+            this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bdsHinhanh)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DataGV)).BeginInit();
             this.SuspendLayout();
             // 
-            // colGiaban
+            // sdtLabel
             // 
-            this.colGiaban.Caption = "Giá Bán";
-            this.colGiaban.FieldName = "Giaban";
-            this.colGiaban.Name = "colGiaban";
-            this.colGiaban.Visible = true;
-            this.colGiaban.VisibleIndex = 7;
+            sdtLabel.AutoSize = true;
+            sdtLabel.Location = new System.Drawing.Point(34, 78);
+            sdtLabel.Name = "sdtLabel";
+            sdtLabel.Size = new System.Drawing.Size(29, 13);
+            sdtLabel.TabIndex = 6;
+            sdtLabel.Text = "SĐT";
             // 
-            // colSoluong
+            // ngaysinhLabel
             // 
-            this.colSoluong.Caption = "Số Lượng";
-            this.colSoluong.FieldName = "Soluong";
-            this.colSoluong.Name = "colSoluong";
-            this.colSoluong.Visible = true;
-            this.colSoluong.VisibleIndex = 5;
+            ngaysinhLabel.AutoSize = true;
+            ngaysinhLabel.Location = new System.Drawing.Point(6, 23);
+            ngaysinhLabel.Name = "ngaysinhLabel";
+            ngaysinhLabel.Size = new System.Drawing.Size(56, 13);
+            ngaysinhLabel.TabIndex = 4;
+            ngaysinhLabel.Text = "Ngày Sinh";
             // 
-            // colXuatxu
+            // cmndLabel
             // 
-            this.colXuatxu.Caption = "Xuất Xứ";
-            this.colXuatxu.FieldName = "Xuatxu";
-            this.colXuatxu.Name = "colXuatxu";
-            this.colXuatxu.Visible = true;
-            this.colXuatxu.VisibleIndex = 4;
+            cmndLabel.AutoSize = true;
+            cmndLabel.Location = new System.Drawing.Point(23, 109);
+            cmndLabel.Name = "cmndLabel";
+            cmndLabel.Size = new System.Drawing.Size(39, 13);
+            cmndLabel.TabIndex = 2;
+            cmndLabel.Text = "CMND";
             // 
-            // colThuonghieu
+            // diachiLabel
             // 
-            this.colThuonghieu.Caption = "Thương Hiệu";
-            this.colThuonghieu.FieldName = "Thuonghieu";
-            this.colThuonghieu.Name = "colThuonghieu";
-            this.colThuonghieu.Visible = true;
-            this.colThuonghieu.VisibleIndex = 3;
-            // 
-            // colTenhang
-            // 
-            this.colTenhang.Caption = "Tên Hàng";
-            this.colTenhang.FieldName = "Tenhang";
-            this.colTenhang.Name = "colTenhang";
-            this.colTenhang.Visible = true;
-            this.colTenhang.VisibleIndex = 2;
-            // 
-            // colMahang
-            // 
-            this.colMahang.Caption = "Mã Hàng";
-            this.colMahang.FieldName = "Mahang";
-            this.colMahang.Name = "colMahang";
-            this.colMahang.Visible = true;
-            this.colMahang.VisibleIndex = 1;
+            diachiLabel.AutoSize = true;
+            diachiLabel.Location = new System.Drawing.Point(20, 49);
+            diachiLabel.Name = "diachiLabel";
+            diachiLabel.Size = new System.Drawing.Size(41, 13);
+            diachiLabel.TabIndex = 0;
+            diachiLabel.Text = "Địa Chỉ";
             // 
             // btnSua
             // 
@@ -115,6 +124,7 @@
             this.btnSua.Size = new System.Drawing.Size(106, 42);
             this.btnSua.TabIndex = 0;
             this.btnSua.Text = "Sửa";
+            this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
             // 
             // btnXoa
             // 
@@ -126,6 +136,7 @@
             this.btnXoa.Size = new System.Drawing.Size(82, 42);
             this.btnXoa.TabIndex = 0;
             this.btnXoa.Text = "Xóa";
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
             // btnAdd
             // 
@@ -137,50 +148,7 @@
             this.btnAdd.Size = new System.Drawing.Size(117, 42);
             this.btnAdd.TabIndex = 0;
             this.btnAdd.Text = "Thêm Mới";
-            // 
-            // colstt
-            // 
-            this.colstt.Caption = "STT";
-            this.colstt.FieldName = "stt";
-            this.colstt.Name = "colstt";
-            this.colstt.Visible = true;
-            this.colstt.VisibleIndex = 0;
-            // 
-            // gridView1
-            // 
-            this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
-            this.colstt,
-            this.colMahang,
-            this.colTenhang,
-            this.colThuonghieu,
-            this.colXuatxu,
-            this.colSoluong,
-            this.colGianhap,
-            this.colGiaban});
-            this.gridView1.GridControl = this.gcDanhsachhanghoa;
-            this.gridView1.Name = "gridView1";
-            this.gridView1.OptionsView.ShowAutoFilterRow = true;
-            // 
-            // colGianhap
-            // 
-            this.colGianhap.Caption = "Giá Nhập";
-            this.colGianhap.FieldName = "Gianhap";
-            this.colGianhap.Name = "colGianhap";
-            this.colGianhap.Visible = true;
-            this.colGianhap.VisibleIndex = 6;
-            // 
-            // gcDanhsachhanghoa
-            // 
-            this.gcDanhsachhanghoa.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.gcDanhsachhanghoa.Location = new System.Drawing.Point(-39, 457);
-            this.gcDanhsachhanghoa.MainView = this.gridView1;
-            this.gcDanhsachhanghoa.Name = "gcDanhsachhanghoa";
-            this.gcDanhsachhanghoa.Size = new System.Drawing.Size(995, 406);
-            this.gcDanhsachhanghoa.TabIndex = 16;
-            this.gcDanhsachhanghoa.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
-            this.gridView1});
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // btnThemDong
             // 
@@ -192,6 +160,7 @@
             this.btnThemDong.Size = new System.Drawing.Size(128, 42);
             this.btnThemDong.TabIndex = 0;
             this.btnThemDong.Text = "Thêm Dòng";
+            this.btnThemDong.Click += new System.EventHandler(this.btnThemDong_Click);
             // 
             // groupBox2
             // 
@@ -199,42 +168,44 @@
             this.groupBox2.Controls.Add(this.btnXoa);
             this.groupBox2.Controls.Add(this.btnAdd);
             this.groupBox2.Controls.Add(this.btnThemDong);
-            this.groupBox2.Location = new System.Drawing.Point(57, 376);
+            this.groupBox2.Location = new System.Drawing.Point(3, 356);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(503, 61);
             this.groupBox2.TabIndex = 15;
             this.groupBox2.TabStop = false;
             // 
-            // pictureDSHH
+            // pictureDSKH
             // 
-            this.pictureDSHH.Location = new System.Drawing.Point(244, 92);
-            this.pictureDSHH.Name = "pictureDSHH";
-            this.pictureDSHH.Size = new System.Drawing.Size(290, 278);
-            this.pictureDSHH.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureDSHH.TabIndex = 14;
-            this.pictureDSHH.TabStop = false;
+            this.pictureDSKH.Location = new System.Drawing.Point(150, 72);
+            this.pictureDSKH.Name = "pictureDSKH";
+            this.pictureDSKH.Size = new System.Drawing.Size(290, 278);
+            this.pictureDSKH.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureDSKH.TabIndex = 14;
+            this.pictureDSKH.TabStop = false;
             // 
             // btnSuaAnh
             // 
             this.btnSuaAnh.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSuaAnh.Appearance.Options.UseFont = true;
             this.btnSuaAnh.Image = ((System.Drawing.Image)(resources.GetObject("btnSuaAnh.Image")));
-            this.btnSuaAnh.Location = new System.Drawing.Point(67, 258);
+            this.btnSuaAnh.Location = new System.Drawing.Point(3, 173);
             this.btnSuaAnh.Name = "btnSuaAnh";
             this.btnSuaAnh.Size = new System.Drawing.Size(123, 51);
             this.btnSuaAnh.TabIndex = 12;
             this.btnSuaAnh.Text = "Sửa Ảnh";
+            this.btnSuaAnh.Click += new System.EventHandler(this.btnSuaAnh_Click);
             // 
             // btnThemAnh
             // 
             this.btnThemAnh.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThemAnh.Appearance.Options.UseFont = true;
             this.btnThemAnh.Image = ((System.Drawing.Image)(resources.GetObject("btnThemAnh.Image")));
-            this.btnThemAnh.Location = new System.Drawing.Point(67, 148);
+            this.btnThemAnh.Location = new System.Drawing.Point(3, 117);
             this.btnThemAnh.Name = "btnThemAnh";
             this.btnThemAnh.Size = new System.Drawing.Size(123, 50);
             this.btnThemAnh.TabIndex = 13;
             this.btnThemAnh.Text = "Thêm Ảnh";
+            this.btnThemAnh.Click += new System.EventHandler(this.btnThemAnh_Click);
             // 
             // labelControl1
             // 
@@ -256,50 +227,228 @@
             this.panelControl1.Size = new System.Drawing.Size(937, 63);
             this.panelControl1.TabIndex = 11;
             // 
+            // bdsDanhsachkhachhang
+            // 
+            this.bdsDanhsachkhachhang.DataSource = typeof(DataAccess.Danhsachkhachhang);
+            this.bdsDanhsachkhachhang.PositionChanged += new System.EventHandler(this.bdsDanhsachkhachhang_PositionChanged);
+            // 
+            // gcDanhsachkhachhang
+            // 
+            this.gcDanhsachkhachhang.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.gcDanhsachkhachhang.DataSource = this.bdsDanhsachkhachhang;
+            this.gcDanhsachkhachhang.Location = new System.Drawing.Point(0, 423);
+            this.gcDanhsachkhachhang.MainView = this.gridView1;
+            this.gcDanhsachkhachhang.Name = "gcDanhsachkhachhang";
+            this.gcDanhsachkhachhang.Size = new System.Drawing.Size(937, 271);
+            this.gcDanhsachkhachhang.TabIndex = 16;
+            this.gcDanhsachkhachhang.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.gridView1});
+            // 
+            // gridView1
+            // 
+            this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.colMakhachhang,
+            this.colTenkhachhang,
+            this.colGioitinh,
+            this.colTaikhoan,
+            this.colMatkhau,
+            this.colCapbac});
+            this.gridView1.GridControl = this.gcDanhsachkhachhang;
+            this.gridView1.Name = "gridView1";
+            // 
+            // colMakhachhang
+            // 
+            this.colMakhachhang.Caption = "Mã Khách Hàng";
+            this.colMakhachhang.FieldName = "Makhachhang";
+            this.colMakhachhang.Name = "colMakhachhang";
+            this.colMakhachhang.Visible = true;
+            this.colMakhachhang.VisibleIndex = 0;
+            // 
+            // colTenkhachhang
+            // 
+            this.colTenkhachhang.Caption = "Tên Khách Hàng";
+            this.colTenkhachhang.FieldName = "Tenkhachhang";
+            this.colTenkhachhang.Name = "colTenkhachhang";
+            this.colTenkhachhang.Visible = true;
+            this.colTenkhachhang.VisibleIndex = 1;
+            // 
+            // colGioitinh
+            // 
+            this.colGioitinh.Caption = "Giới Tính";
+            this.colGioitinh.FieldName = "Gioitinh";
+            this.colGioitinh.Name = "colGioitinh";
+            this.colGioitinh.Visible = true;
+            this.colGioitinh.VisibleIndex = 2;
+            // 
+            // colTaikhoan
+            // 
+            this.colTaikhoan.Caption = "Tài Khoản";
+            this.colTaikhoan.FieldName = "Taikhoan";
+            this.colTaikhoan.Name = "colTaikhoan";
+            this.colTaikhoan.Visible = true;
+            this.colTaikhoan.VisibleIndex = 3;
+            // 
+            // colMatkhau
+            // 
+            this.colMatkhau.Caption = "Mật Khẩu";
+            this.colMatkhau.FieldName = "Matkhau";
+            this.colMatkhau.Name = "colMatkhau";
+            this.colMatkhau.Visible = true;
+            this.colMatkhau.VisibleIndex = 4;
+            // 
+            // colCapbac
+            // 
+            this.colCapbac.Caption = "Cấp Bậc";
+            this.colCapbac.FieldName = "Capbac";
+            this.colCapbac.Name = "colCapbac";
+            this.colCapbac.Visible = true;
+            this.colCapbac.VisibleIndex = 5;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox1.Controls.Add(sdtLabel);
+            this.groupBox1.Controls.Add(this.sdtTextBox);
+            this.groupBox1.Controls.Add(ngaysinhLabel);
+            this.groupBox1.Controls.Add(this.ngaysinhDateTimePicker);
+            this.groupBox1.Controls.Add(cmndLabel);
+            this.groupBox1.Controls.Add(this.cmndTextBox);
+            this.groupBox1.Controls.Add(diachiLabel);
+            this.groupBox1.Controls.Add(this.diachiTextBox);
+            this.groupBox1.Location = new System.Drawing.Point(667, 72);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(270, 144);
+            this.groupBox1.TabIndex = 17;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Thông Tin Chi Tiết";
+            // 
+            // sdtTextBox
+            // 
+            this.sdtTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.bdsDanhsachkhachhang, "Sdt", true));
+            this.sdtTextBox.Location = new System.Drawing.Point(66, 75);
+            this.sdtTextBox.Name = "sdtTextBox";
+            this.sdtTextBox.Size = new System.Drawing.Size(200, 20);
+            this.sdtTextBox.TabIndex = 7;
+            // 
+            // ngaysinhDateTimePicker
+            // 
+            this.ngaysinhDateTimePicker.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.bdsDanhsachkhachhang, "Ngaysinh", true));
+            this.ngaysinhDateTimePicker.Location = new System.Drawing.Point(66, 19);
+            this.ngaysinhDateTimePicker.Name = "ngaysinhDateTimePicker";
+            this.ngaysinhDateTimePicker.Size = new System.Drawing.Size(200, 20);
+            this.ngaysinhDateTimePicker.TabIndex = 5;
+            // 
+            // cmndTextBox
+            // 
+            this.cmndTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.bdsDanhsachkhachhang, "Cmnd", true));
+            this.cmndTextBox.Location = new System.Drawing.Point(66, 106);
+            this.cmndTextBox.Name = "cmndTextBox";
+            this.cmndTextBox.Size = new System.Drawing.Size(200, 20);
+            this.cmndTextBox.TabIndex = 3;
+            // 
+            // diachiTextBox
+            // 
+            this.diachiTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.bdsDanhsachkhachhang, "Diachi", true));
+            this.diachiTextBox.Location = new System.Drawing.Point(66, 46);
+            this.diachiTextBox.Name = "diachiTextBox";
+            this.diachiTextBox.Size = new System.Drawing.Size(200, 20);
+            this.diachiTextBox.TabIndex = 1;
+            // 
+            // bdsHinhanh
+            // 
+            this.bdsHinhanh.DataSource = typeof(DataAccess.HinhAnh);
+            // 
+            // DataGV
+            // 
+            this.DataGV.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.DataGV.AutoGenerateColumns = false;
+            this.DataGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DataGV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.mahangDataGridViewTextBoxColumn,
+            this.hinhanhDataGridViewImageColumn});
+            this.DataGV.DataSource = this.bdsHinhanh;
+            this.DataGV.Location = new System.Drawing.Point(920, 222);
+            this.DataGV.Name = "DataGV";
+            this.DataGV.Size = new System.Drawing.Size(13, 17);
+            this.DataGV.TabIndex = 18;
+            this.DataGV.Visible = false;
+            // 
+            // mahangDataGridViewTextBoxColumn
+            // 
+            this.mahangDataGridViewTextBoxColumn.DataPropertyName = "Mahang";
+            this.mahangDataGridViewTextBoxColumn.HeaderText = "Mahang";
+            this.mahangDataGridViewTextBoxColumn.Name = "mahangDataGridViewTextBoxColumn";
+            // 
+            // hinhanhDataGridViewImageColumn
+            // 
+            this.hinhanhDataGridViewImageColumn.DataPropertyName = "Hinhanh";
+            this.hinhanhDataGridViewImageColumn.HeaderText = "Hinhanh";
+            this.hinhanhDataGridViewImageColumn.Name = "hinhanhDataGridViewImageColumn";
+            // 
             // ucKhachhangthongthuong
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.DataGV);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.gcDanhsachkhachhang);
             this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.pictureDSHH);
+            this.Controls.Add(this.pictureDSKH);
             this.Controls.Add(this.btnSuaAnh);
             this.Controls.Add(this.btnThemAnh);
-            this.Controls.Add(this.gcDanhsachhanghoa);
             this.Controls.Add(this.panelControl1);
             this.Name = "ucKhachhangthongthuong";
-            this.Size = new System.Drawing.Size(937, 587);
-            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gcDanhsachhanghoa)).EndInit();
+            this.Size = new System.Drawing.Size(937, 694);
+            this.Load += new System.EventHandler(this.ucKhachhangthongthuong_Load);
             this.groupBox2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureDSHH)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureDSKH)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);
             this.panelControl1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bdsDanhsachkhachhang)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gcDanhsachkhachhang)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bdsHinhanh)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DataGV)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private DevExpress.XtraGrid.Columns.GridColumn colGiaban;
-        private DevExpress.XtraGrid.Columns.GridColumn colSoluong;
-        private DevExpress.XtraGrid.Columns.GridColumn colXuatxu;
-        private DevExpress.XtraGrid.Columns.GridColumn colThuonghieu;
-        private DevExpress.XtraGrid.Columns.GridColumn colTenhang;
-        private DevExpress.XtraGrid.Columns.GridColumn colMahang;
         private DevExpress.XtraEditors.SimpleButton btnSua;
         private DevExpress.XtraEditors.SimpleButton btnXoa;
         private DevExpress.XtraEditors.SimpleButton btnAdd;
-        private DevExpress.XtraGrid.Columns.GridColumn colstt;
-        private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
-        private DevExpress.XtraGrid.Columns.GridColumn colGianhap;
-        private DevExpress.XtraGrid.GridControl gcDanhsachhanghoa;
         private DevExpress.XtraEditors.SimpleButton btnThemDong;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.PictureBox pictureDSHH;
+        private System.Windows.Forms.PictureBox pictureDSKH;
         private DevExpress.XtraEditors.SimpleButton btnSuaAnh;
         private DevExpress.XtraEditors.SimpleButton btnThemAnh;
         private DevExpress.XtraEditors.LabelControl labelControl1;
         private DevExpress.XtraEditors.PanelControl panelControl1;
+        private System.Windows.Forms.BindingSource bdsDanhsachkhachhang;
+        private DevExpress.XtraGrid.GridControl gcDanhsachkhachhang;
+        private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
+        private DevExpress.XtraGrid.Columns.GridColumn colMakhachhang;
+        private DevExpress.XtraGrid.Columns.GridColumn colTenkhachhang;
+        private DevExpress.XtraGrid.Columns.GridColumn colGioitinh;
+        private DevExpress.XtraGrid.Columns.GridColumn colTaikhoan;
+        private DevExpress.XtraGrid.Columns.GridColumn colMatkhau;
+        private DevExpress.XtraGrid.Columns.GridColumn colCapbac;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.TextBox sdtTextBox;
+        private System.Windows.Forms.DateTimePicker ngaysinhDateTimePicker;
+        private System.Windows.Forms.TextBox cmndTextBox;
+        private System.Windows.Forms.TextBox diachiTextBox;
+        private System.Windows.Forms.BindingSource bdsHinhanh;
+        private System.Windows.Forms.DataGridView DataGV;
+        private System.Windows.Forms.DataGridViewTextBoxColumn mahangDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewImageColumn hinhanhDataGridViewImageColumn;
     }
 }

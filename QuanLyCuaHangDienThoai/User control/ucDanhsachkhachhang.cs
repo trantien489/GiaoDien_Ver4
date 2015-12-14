@@ -77,11 +77,8 @@ namespace QuanLyCuaHangDienThoai.User_control
                 var sql = "select Mahang, Count(Mahang) from HinhAnh where Mahang = " + "'" + cur.Makhachhang + "'" + "group by Mahang";
                 if (Model.dangnhap(sql) == 1)
                 {
-                   // DataGV.DataSource = Model.GetPictureHanghoa(cur.Makhachhang);
                     bdsHinhanh.DataSource = Model.GetPicture(cur.Makhachhang);
                     Image hinh = ByteArrayToImage((byte[])DataGV.CurrentRow.Cells[1].Value);   
-                    //var cur2 = bdsHinhanh.Current as HinhAnh;
-                    //Image hinh = (Image)cur2.Hinhanh;  
                     pictureDSKH.Image = hinh;
                     ResetControlValues(DataGV);
                 }

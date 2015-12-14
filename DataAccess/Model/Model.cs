@@ -17,6 +17,10 @@ namespace DataAccess
         {
             return db.KiemTraDngNhap(sql);
         }
+        public static List<T> Select<T>(string sql) where T : new()
+        {
+            return db.GetList<T>(sql);
+        }
         public static int InsertGeneric(object item)
         {
             return db.ExecuteNonQuery(item.ToSqlInsert(), item.ToSqlParameter());

@@ -47,6 +47,8 @@
     <Compile Include="Model\Model.cs" />
     <Compile Include="Model\Model.Danhsachhanghoa.cs" />
     <Compile Include="Model\Model.Danhsachkhachhang.cs" />
+    <Compile Include="Model\Model.Danhsachkhachhangthanthiet.cs" />
+    <Compile Include="Model\Model.Danhsachkhachhangthongthuong.cs" />
     <Compile Include="Model\Model.Picture.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

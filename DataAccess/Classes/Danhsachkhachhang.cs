@@ -16,7 +16,7 @@ namespace DataAccess
         public string Taikhoan { get; set; }
         public string Matkhau { get; set; }
         public int Cmnd { get; set; }
-        public int Sdt { get; set; }
+        public string Sdt { get; set; }
         public string Capbac { get; set; }
         //public byte[] Hinhanh { get; set; }
         public DateTime Ngaysinh { get; set; }    

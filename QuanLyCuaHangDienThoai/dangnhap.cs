@@ -47,7 +47,7 @@ namespace QuanLyCuaHangDienThoai
                 }
                 if (radioUser.Checked == true)
                 {
-                    string sql = "select TK, count(MK) from DangNhap where TK ='" + txtTaiKhoan.Text + "' and MK ='" + txtMatKhau.Text + "' group by TK";
+                    string sql = "select Taikhoan, count(Matkhau) from Danhsachkhachhang where Taikhoan ='" + txtTaiKhoan.Text + "' and Matkhau ='" + txtMatKhau.Text + "' group by Taikhoan";
                     int kq = Model.dangnhap(sql);
                     if (kq == 1)
                     {

@@ -84,36 +84,36 @@
             diachiLabel.AutoSize = true;
             diachiLabel.Location = new System.Drawing.Point(20, 49);
             diachiLabel.Name = "diachiLabel";
-            diachiLabel.Size = new System.Drawing.Size(40, 13);
+            diachiLabel.Size = new System.Drawing.Size(41, 13);
             diachiLabel.TabIndex = 0;
-            diachiLabel.Text = "Diachi:";
+            diachiLabel.Text = "Địa Chỉ";
             // 
             // cmndLabel
             // 
             cmndLabel.AutoSize = true;
             cmndLabel.Location = new System.Drawing.Point(23, 109);
             cmndLabel.Name = "cmndLabel";
-            cmndLabel.Size = new System.Drawing.Size(37, 13);
+            cmndLabel.Size = new System.Drawing.Size(39, 13);
             cmndLabel.TabIndex = 2;
-            cmndLabel.Text = "Cmnd:";
+            cmndLabel.Text = "CMND";
             // 
             // ngaysinhLabel
             // 
             ngaysinhLabel.AutoSize = true;
             ngaysinhLabel.Location = new System.Drawing.Point(6, 23);
             ngaysinhLabel.Name = "ngaysinhLabel";
-            ngaysinhLabel.Size = new System.Drawing.Size(54, 13);
+            ngaysinhLabel.Size = new System.Drawing.Size(56, 13);
             ngaysinhLabel.TabIndex = 4;
-            ngaysinhLabel.Text = "Ngaysinh:";
+            ngaysinhLabel.Text = "Ngày Sinh";
             // 
             // sdtLabel
             // 
             sdtLabel.AutoSize = true;
             sdtLabel.Location = new System.Drawing.Point(34, 78);
             sdtLabel.Name = "sdtLabel";
-            sdtLabel.Size = new System.Drawing.Size(26, 13);
+            sdtLabel.Size = new System.Drawing.Size(29, 13);
             sdtLabel.TabIndex = 6;
-            sdtLabel.Text = "Sdt:";
+            sdtLabel.Text = "SĐT";
             // 
             // groupBox2
             // 
@@ -121,7 +121,7 @@
             this.groupBox2.Controls.Add(this.btnXoa);
             this.groupBox2.Controls.Add(this.btnAdd);
             this.groupBox2.Controls.Add(this.btnThemDong);
-            this.groupBox2.Location = new System.Drawing.Point(21, 362);
+            this.groupBox2.Location = new System.Drawing.Point(5, 362);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(503, 61);
             this.groupBox2.TabIndex = 4;
