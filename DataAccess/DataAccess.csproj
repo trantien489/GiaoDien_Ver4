@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="Classes\Danhsachhanghoa.cs" />
     <Compile Include="Classes\Danhsachkhachhang.cs" />
+    <Compile Include="Classes\Danhsachsukien.cs" />
     <Compile Include="Classes\Hinhanh.cs" />
     <Compile Include="Model\Model.cs" />
     <Compile Include="Model\Model.Danhsachhanghoa.cs" />
@@ -55,6 +56,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Model\Model.Danhsachsukien" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
