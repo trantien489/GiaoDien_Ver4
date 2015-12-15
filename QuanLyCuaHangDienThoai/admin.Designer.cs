@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(admin));
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
             this.navBarSeparatorItem5 = new DevExpress.XtraNavBar.NavBarSeparatorItem();
             this.navBarSeparatorItem4 = new DevExpress.XtraNavBar.NavBarSeparatorItem();
@@ -183,6 +184,7 @@
             // navBarQLKho
             // 
             this.navBarQLKho.Caption = "Quản lý kho hàng";
+            this.navBarQLKho.LargeImage = ((System.Drawing.Image)(resources.GetObject("navBarQLKho.LargeImage")));
             this.navBarQLKho.Name = "navBarQLKho";
             this.navBarQLKho.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.navBarQLKho_LinkClicked);
             // 
@@ -191,9 +193,7 @@
             this.navBarGroup1.Caption = "KHO HÀNG";
             this.navBarGroup1.Expanded = true;
             this.navBarGroup1.ItemLinks.AddRange(new DevExpress.XtraNavBar.NavBarItemLink[] {
-            new DevExpress.XtraNavBar.NavBarItemLink(this.navBarQLKho),
-            new DevExpress.XtraNavBar.NavBarItemLink(this.navBarSeparatorItem2),
-            new DevExpress.XtraNavBar.NavBarItemLink(this.navBarThongKe)});
+            new DevExpress.XtraNavBar.NavBarItemLink(this.navBarQLKho)});
             this.navBarGroup1.Name = "navBarGroup1";
             // 
             // splitContainerControl1
