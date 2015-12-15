@@ -45,6 +45,7 @@
     <Compile Include="Classes\Danhsachkhachhang.cs" />
     <Compile Include="Classes\Danhsachsukien.cs" />
     <Compile Include="Classes\Hinhanh.cs" />
+    <Compile Include="Classes\TinnhanAd.cs" />
     <Compile Include="Model\Model.cs" />
     <Compile Include="Model\Model.Danhsachhanghoa.cs" />
     <Compile Include="Model\Model.Danhsachkhachhang.cs" />

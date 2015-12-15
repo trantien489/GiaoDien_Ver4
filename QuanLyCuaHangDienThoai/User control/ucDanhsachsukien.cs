@@ -83,7 +83,7 @@ namespace QuanLyCuaHangDienThoai.User_control
 
         private void panelControl1_Paint_1(object sender, PaintEventArgs e)
         {
-
+            
         }
 
         private void groupBox2_Enter(object sender, EventArgs e)
