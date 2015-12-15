@@ -23,30 +23,27 @@ namespace QuanLyCuaHangDienThoai.User_control
 
         }
 
-        private void ucDanhsachsukien_Load(object sender, EventArgs e)
-        {
-            bdsDanhsachsukien.DataSource = Model.GetDanhsachsukienItems();
-        }
-        public static void ResetControlValues(Control Parent)
-        {
-            foreach (Control mycontrols in Parent.Controls)
-                if (mycontrols is TextBox)
-                {
-                    (mycontrols as TextBox).Text = string.Empty;
-                }
-                else if (mycontrols is DateTimePicker)
-                {
-                    (mycontrols as DateTimePicker).Value = DateTime.Now;
-                }
-                else if (mycontrols is ComboBox)
-                {
-                    (mycontrols as ComboBox).SelectedIndex = 0;
-                }
-                else if (mycontrols is DataGridView)
-                {
-                    (mycontrols as DataGridView).Rows.Clear();
-                }
-        }
+        
+        //public static void ResetControlValues(Control Parent)
+        //{
+        //    foreach (Control mycontrols in Parent.Controls)
+        //        if (mycontrols is TextBox)
+        //        {
+        //            (mycontrols as TextBox).Text = string.Empty;
+        //        }
+        //        else if (mycontrols is DateTimePicker)
+        //        {
+        //            (mycontrols as DateTimePicker).Value = DateTime.Now;
+        //        }
+        //        else if (mycontrols is ComboBox)
+        //        {
+        //            (mycontrols as ComboBox).SelectedIndex = 0;
+        //        }
+        //        else if (mycontrols is DataGridView)
+        //        {
+        //            (mycontrols as DataGridView).Rows.Clear();
+        //        }
+        //}
 
         private void btnThemDong_Click(object sender, EventArgs e)
         {
@@ -82,6 +79,21 @@ namespace QuanLyCuaHangDienThoai.User_control
                 Model.Suadanhsachsukien(cur, cur.GetType().Name);
             }
             ucDanhsachsukien_Load(sender, e);
+        }
+
+        private void panelControl1_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void groupBox2_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ucDanhsachsukien_Load(object sender, EventArgs e)
+        {
+            bdsDanhsachsukien.DataSource = Model.GetDanhsachsukienItems();
         }
 
       
