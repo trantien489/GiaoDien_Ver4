@@ -53,6 +53,7 @@
     <Compile Include="Model\Model.Danhsachkhachhangthongthuong.cs" />
     <Compile Include="Model\Model.Danhsachsukien.cs" />
     <Compile Include="Model\Model.Picture.cs" />
+    <Compile Include="Model\Model.TinnhanAd.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -65,5 +65,13 @@ namespace QuanLyCuaHangDienThoai
             frm.Dock = System.Windows.Forms.DockStyle.Fill;
             panelControl1.Controls.Add(frm);
         }
+
+        private void navBarTinNhan_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
+        {
+            panelControl1.Controls.Clear();
+            ucTinnhanAd frm = new ucTinnhanAd();
+            frm.Dock = System.Windows.Forms.DockStyle.Fill;
+            panelControl1.Controls.Add(frm);
+        }
     }
 }

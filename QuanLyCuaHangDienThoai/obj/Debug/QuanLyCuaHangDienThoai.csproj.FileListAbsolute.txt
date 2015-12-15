@@ -133,3 +133,4 @@ F:\HKi 3\Lập trình Windows\2015_11\GiaoDien_Ver4\QuanLyCuaHangDienThoai\bin\D
 F:\HKi 3\Lập trình Windows\2015_11\GiaoDien_Ver4\QuanLyCuaHangDienThoai\bin\Debug\DatabaseLid.exe
 F:\HKi 3\Lập trình Windows\2015_11\GiaoDien_Ver4\QuanLyCuaHangDienThoai\bin\Debug\DataAccess.pdb
 F:\HKi 3\Lập trình Windows\2015_11\GiaoDien_Ver4\QuanLyCuaHangDienThoai\bin\Debug\DatabaseLid.pdb
+F:\HKi 3\Lập trình Windows\2015_11\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHangDienThoai.User_control.ucTinnhanAd.resources

@@ -88,6 +88,7 @@
             // 
             this.navBarTinNhan.Caption = "Quản lý tin nhắn";
             this.navBarTinNhan.Name = "navBarTinNhan";
+            this.navBarTinNhan.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.navBarTinNhan_LinkClicked);
             // 
             // navBarGroup2
             // 
