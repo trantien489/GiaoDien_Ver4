@@ -138,3 +138,5 @@ F:\HKi 3\Lập trình Windows\2015_11\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\D
 =======
 D:\ky 3\giao diện\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHangDienThoai.User_control.ucDanhsachsukien.resources
 >>>>>>> 1d036bfcf6793aa027d697e5e44e150afaec0fb9
+D:\LTWIN\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHangDienThoai.User_control.ucDanhsachsukien.resources
+D:\LTWIN\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHangDienThoai.User_control.ucTinnhanAd.resources
