@@ -77,9 +77,9 @@
             this.lbl_email.LineVisible = true;
             this.lbl_email.Location = new System.Drawing.Point(23, 452);
             this.lbl_email.Name = "lbl_email";
-            this.lbl_email.Size = new System.Drawing.Size(260, 25);
+            this.lbl_email.Size = new System.Drawing.Size(337, 25);
             this.lbl_email.TabIndex = 4;
-            this.lbl_email.Text = "Email : tientran@gmail.com";
+            this.lbl_email.Text = "Email : tranviettien1996@gmail.com";
             this.lbl_email.UseWaitCursor = true;
             // 
             // panelControl1
