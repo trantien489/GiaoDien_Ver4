@@ -140,3 +140,5 @@ D:\ky 3\giao diện\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHang
 >>>>>>> 1d036bfcf6793aa027d697e5e44e150afaec0fb9
 D:\LTWIN\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHangDienThoai.User_control.ucDanhsachsukien.resources
 D:\LTWIN\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHangDienThoai.User_control.ucTinnhanAd.resources
+D:\LTWIN\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHangDienThoai.User_control.ucBaoHanh.resources
+D:\LTWIN\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHangDienThoai.User_control.ucLienhe.resources
