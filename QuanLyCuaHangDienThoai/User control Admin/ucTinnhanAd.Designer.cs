@@ -34,22 +34,22 @@
             this.btnXoa = new DevExpress.XtraEditors.SimpleButton();
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.bdsTinnhanAd = new System.Windows.Forms.BindingSource(this.components);
-            this.gcTinnhanAd = new DevExpress.XtraGrid.GridControl();
+            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
+            this.gridControl1 = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.bdsTinnhanAd = new System.Windows.Forms.BindingSource(this.components);
             this.colstt = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colMatinnhan = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colTieude = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colNoidung = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colNguoigui = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colNgaygui = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
+            this.colTrangthai = new DevExpress.XtraGrid.Columns.GridColumn();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bdsTinnhanAd)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gcTinnhanAd)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bdsTinnhanAd)).BeginInit();
             this.SuspendLayout();
             // 
             // labelControl1
@@ -93,77 +93,6 @@
             this.groupBox2.TabIndex = 11;
             this.groupBox2.TabStop = false;
             // 
-            // bdsTinnhanAd
-            // 
-            this.bdsTinnhanAd.DataSource = typeof(DataAccess.TinnhanAd);
-            // 
-            // gcTinnhanAd
-            // 
-            this.gcTinnhanAd.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.gcTinnhanAd.DataSource = this.bdsTinnhanAd;
-            this.gcTinnhanAd.Location = new System.Drawing.Point(0, 172);
-            this.gcTinnhanAd.MainView = this.gridView1;
-            this.gcTinnhanAd.Name = "gcTinnhanAd";
-            this.gcTinnhanAd.Size = new System.Drawing.Size(1043, 347);
-            this.gcTinnhanAd.TabIndex = 12;
-            this.gcTinnhanAd.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
-            this.gridView1});
-            // 
-            // gridView1
-            // 
-            this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
-            this.colstt,
-            this.colMatinnhan,
-            this.colTieude,
-            this.colNoidung,
-            this.colNguoigui,
-            this.colNgaygui});
-            this.gridView1.GridControl = this.gcTinnhanAd;
-            this.gridView1.Name = "gridView1";
-            // 
-            // colstt
-            // 
-            this.colstt.FieldName = "stt";
-            this.colstt.Name = "colstt";
-            this.colstt.Visible = true;
-            this.colstt.VisibleIndex = 0;
-            // 
-            // colMatinnhan
-            // 
-            this.colMatinnhan.FieldName = "Matinnhan";
-            this.colMatinnhan.Name = "colMatinnhan";
-            this.colMatinnhan.Visible = true;
-            this.colMatinnhan.VisibleIndex = 1;
-            // 
-            // colTieude
-            // 
-            this.colTieude.FieldName = "Tieude";
-            this.colTieude.Name = "colTieude";
-            this.colTieude.Visible = true;
-            this.colTieude.VisibleIndex = 2;
-            // 
-            // colNoidung
-            // 
-            this.colNoidung.FieldName = "Noidung";
-            this.colNoidung.Name = "colNoidung";
-            this.colNoidung.Visible = true;
-            this.colNoidung.VisibleIndex = 3;
-            // 
-            // colNguoigui
-            // 
-            this.colNguoigui.FieldName = "Nguoigui";
-            this.colNguoigui.Name = "colNguoigui";
-            this.colNguoigui.Visible = true;
-            this.colNguoigui.VisibleIndex = 4;
-            // 
-            // colNgaygui
-            // 
-            this.colNgaygui.FieldName = "Ngaygui";
-            this.colNgaygui.Name = "colNgaygui";
-            this.colNgaygui.Visible = true;
-            this.colNgaygui.VisibleIndex = 5;
-            // 
             // simpleButton1
             // 
             this.simpleButton1.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -175,11 +104,90 @@
             this.simpleButton1.TabIndex = 0;
             this.simpleButton1.Text = "Trả lời";
             // 
+            // gridControl1
+            // 
+            this.gridControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.gridControl1.DataSource = this.bdsTinnhanAd;
+            this.gridControl1.Location = new System.Drawing.Point(4, 168);
+            this.gridControl1.MainView = this.gridView1;
+            this.gridControl1.Name = "gridControl1";
+            this.gridControl1.Size = new System.Drawing.Size(996, 351);
+            this.gridControl1.TabIndex = 12;
+            this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.gridView1});
+            // 
+            // gridView1
+            // 
+            this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.colstt,
+            this.colTieude,
+            this.colNoidung,
+            this.colNguoigui,
+            this.colNgaygui,
+            this.colTrangthai});
+            this.gridView1.GridControl = this.gridControl1;
+            this.gridView1.Name = "gridView1";
+            this.gridView1.OptionsView.ShowAutoFilterRow = true;
+            // 
+            // bdsTinnhanAd
+            // 
+            this.bdsTinnhanAd.DataSource = typeof(DataAccess.TinnhanAd);
+            // 
+            // colstt
+            // 
+            this.colstt.Caption = "STT";
+            this.colstt.FieldName = "stt";
+            this.colstt.Name = "colstt";
+            this.colstt.Visible = true;
+            this.colstt.VisibleIndex = 0;
+            // 
+            // colTieude
+            // 
+            this.colTieude.Caption = "Tiêu Đề";
+            this.colTieude.FieldName = "Tieude";
+            this.colTieude.Name = "colTieude";
+            this.colTieude.Visible = true;
+            this.colTieude.VisibleIndex = 1;
+            // 
+            // colNoidung
+            // 
+            this.colNoidung.Caption = "Nội Dung";
+            this.colNoidung.FieldName = "Noidung";
+            this.colNoidung.Name = "colNoidung";
+            this.colNoidung.Visible = true;
+            this.colNoidung.VisibleIndex = 2;
+            // 
+            // colNguoigui
+            // 
+            this.colNguoigui.Caption = "Nội Dung";
+            this.colNguoigui.FieldName = "Nguoigui";
+            this.colNguoigui.Name = "colNguoigui";
+            this.colNguoigui.Visible = true;
+            this.colNguoigui.VisibleIndex = 3;
+            // 
+            // colNgaygui
+            // 
+            this.colNgaygui.Caption = "Ngày Gửi";
+            this.colNgaygui.FieldName = "Ngaygui";
+            this.colNgaygui.Name = "colNgaygui";
+            this.colNgaygui.Visible = true;
+            this.colNgaygui.VisibleIndex = 4;
+            // 
+            // colTrangthai
+            // 
+            this.colTrangthai.Caption = "Trạng Thái";
+            this.colTrangthai.FieldName = "Trangthai";
+            this.colTrangthai.Name = "colTrangthai";
+            this.colTrangthai.Visible = true;
+            this.colTrangthai.VisibleIndex = 5;
+            // 
             // ucTinnhanAd
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.gcTinnhanAd);
+            this.Controls.Add(this.gridControl1);
             this.Controls.Add(this.panelControl1);
             this.Controls.Add(this.groupBox2);
             this.Name = "ucTinnhanAd";
@@ -189,9 +197,9 @@
             this.panelControl1.ResumeLayout(false);
             this.panelControl1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.bdsTinnhanAd)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gcTinnhanAd)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bdsTinnhanAd)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -203,14 +211,14 @@
         private DevExpress.XtraEditors.PanelControl panelControl1;
         private System.Windows.Forms.GroupBox groupBox2;
         private DevExpress.XtraEditors.SimpleButton simpleButton1;
-        private System.Windows.Forms.BindingSource bdsTinnhanAd;
-        private DevExpress.XtraGrid.GridControl gcTinnhanAd;
+        private DevExpress.XtraGrid.GridControl gridControl1;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
+        private System.Windows.Forms.BindingSource bdsTinnhanAd;
         private DevExpress.XtraGrid.Columns.GridColumn colstt;
-        private DevExpress.XtraGrid.Columns.GridColumn colMatinnhan;
         private DevExpress.XtraGrid.Columns.GridColumn colTieude;
         private DevExpress.XtraGrid.Columns.GridColumn colNoidung;
         private DevExpress.XtraGrid.Columns.GridColumn colNguoigui;
         private DevExpress.XtraGrid.Columns.GridColumn colNgaygui;
+        private DevExpress.XtraGrid.Columns.GridColumn colTrangthai;
     }
 }

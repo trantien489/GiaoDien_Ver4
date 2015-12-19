@@ -71,21 +71,28 @@ namespace QuanLyCuaHangDienThoai.User_control
 
         private void bdsDanhsachkhachhang_PositionChanged(object sender, EventArgs e)
         {
-            var cur = bdsDanhsachkhachhang.Current as Danhsachkhachhang;
-            if (cur.Makhachhang != null)
+            if (bdsDanhsachkhachhang.Count != 0)
             {
-                var sql = "select Mahang, Count(Mahang) from HinhAnh where Mahang = " + "'" + cur.Makhachhang + "'" + "group by Mahang";
-                if (Model.dangnhap(sql) == 1)
+                var cur = bdsDanhsachkhachhang.Current as Danhsachkhachhang;
+                if (cur.Makhachhang != null)
                 {
-                    bdsHinhanh.DataSource = Model.GetPicture(cur.Makhachhang);
-                    Image hinh = ByteArrayToImage((byte[])DataGV.CurrentRow.Cells[1].Value);   
-                    pictureDSKH.Image = hinh;
-                    ResetControlValues(DataGV);
+                    var sql = "select Mahang, Count(Mahang) from HinhAnh where Mahang = " + "'" + cur.Makhachhang + "'" + "group by Mahang";
+                    if (Model.dangnhap(sql) == 1)
+                    {
+                        bdsHinhanh.DataSource = Model.GetPicture(cur.Makhachhang);
+                        Image hinh = ByteArrayToImage((byte[])DataGV.CurrentRow.Cells[1].Value);
+                        pictureDSKH.Image = hinh;
+                        ResetControlValues(DataGV);
+                    }
+                    else
+                    {
+                        pictureDSKH.Image = null;
+                    }
                 }
-                else
-                {
-                    pictureDSKH.Image = null;
-                }
+            }
+            else
+            {
+                pictureDSKH.Image = null;
             }
         }
 

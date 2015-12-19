@@ -136,7 +136,7 @@
             // 
             // pictureDSKH
             // 
-            this.pictureDSKH.Location = new System.Drawing.Point(155, 89);
+            this.pictureDSKH.Location = new System.Drawing.Point(135, 89);
             this.pictureDSKH.Name = "pictureDSKH";
             this.pictureDSKH.Size = new System.Drawing.Size(290, 278);
             this.pictureDSKH.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -148,7 +148,7 @@
             this.btnSuaAnh.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSuaAnh.Appearance.Options.UseFont = true;
             this.btnSuaAnh.Image = ((System.Drawing.Image)(resources.GetObject("btnSuaAnh.Image")));
-            this.btnSuaAnh.Location = new System.Drawing.Point(26, 196);
+            this.btnSuaAnh.Location = new System.Drawing.Point(6, 196);
             this.btnSuaAnh.Name = "btnSuaAnh";
             this.btnSuaAnh.Size = new System.Drawing.Size(123, 51);
             this.btnSuaAnh.TabIndex = 6;
@@ -160,7 +160,7 @@
             this.btnThemAnh.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThemAnh.Appearance.Options.UseFont = true;
             this.btnThemAnh.Image = ((System.Drawing.Image)(resources.GetObject("btnThemAnh.Image")));
-            this.btnThemAnh.Location = new System.Drawing.Point(26, 127);
+            this.btnThemAnh.Location = new System.Drawing.Point(6, 127);
             this.btnThemAnh.Name = "btnThemAnh";
             this.btnThemAnh.Size = new System.Drawing.Size(123, 50);
             this.btnThemAnh.TabIndex = 7;
@@ -338,6 +338,7 @@
             this.colCapbac});
             this.gridView1.GridControl = this.gcDanhsachkhachhang;
             this.gridView1.Name = "gridView1";
+            this.gridView1.OptionsView.ShowAutoFilterRow = true;
             // 
             // colMakhachhang
             // 

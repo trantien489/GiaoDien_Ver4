@@ -44,6 +44,7 @@
     <Compile Include="Classes\Danhsachhanghoa.cs" />
     <Compile Include="Classes\Danhsachkhachhang.cs" />
     <Compile Include="Classes\Danhsachsukien.cs" />
+    <Compile Include="Classes\Giohang.cs" />
     <Compile Include="Classes\Hinhanh.cs" />
     <Compile Include="Classes\TinnhanAd.cs" />
     <Compile Include="Model\Model.cs" />
@@ -52,6 +53,7 @@
     <Compile Include="Model\Model.Danhsachkhachhangthanthiet.cs" />
     <Compile Include="Model\Model.Danhsachkhachhangthongthuong.cs" />
     <Compile Include="Model\Model.Danhsachsukien.cs" />
+    <Compile Include="Model\Model.Giohang.cs" />
     <Compile Include="Model\Model.Picture.cs" />
     <Compile Include="Model\Model.TinnhanAd.cs" />
     <Compile Include="Program.cs" />

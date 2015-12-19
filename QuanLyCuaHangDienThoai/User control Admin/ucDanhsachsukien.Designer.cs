@@ -115,6 +115,7 @@
             this.colNoidung});
             this.gridView1.GridControl = this.gcDanhsachsukien;
             this.gridView1.Name = "gridView1";
+            this.gridView1.OptionsView.ShowAutoFilterRow = true;
             // 
             // colSale
             // 

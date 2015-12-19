@@ -35,4 +35,3 @@ namespace QuanLyCuaHangDienThoai.User_control
 
     }
 }
- 

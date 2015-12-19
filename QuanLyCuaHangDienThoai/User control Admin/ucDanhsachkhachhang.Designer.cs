@@ -1,6 +1,6 @@
 ﻿namespace QuanLyCuaHangDienThoai.User_control
 {
-    partial class ucKhachhangthongthuong
+    partial class ucDanhsachkhachhang
     {
         /// <summary> 
         /// Required designer variable.
@@ -29,25 +29,26 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.Label sdtLabel;
-            System.Windows.Forms.Label ngaysinhLabel;
-            System.Windows.Forms.Label cmndLabel;
             System.Windows.Forms.Label diachiLabel;
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ucKhachhangthongthuong));
+            System.Windows.Forms.Label cmndLabel;
+            System.Windows.Forms.Label ngaysinhLabel;
+            System.Windows.Forms.Label sdtLabel;
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ucDanhsachkhachhang));
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.btnSua = new DevExpress.XtraEditors.SimpleButton();
             this.btnXoa = new DevExpress.XtraEditors.SimpleButton();
             this.btnAdd = new DevExpress.XtraEditors.SimpleButton();
             this.btnThemDong = new DevExpress.XtraEditors.SimpleButton();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.pictureDSKH = new System.Windows.Forms.PictureBox();
             this.btnSuaAnh = new DevExpress.XtraEditors.SimpleButton();
             this.btnThemAnh = new DevExpress.XtraEditors.SimpleButton();
-            this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
+            this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.bdsDanhsachkhachhang = new System.Windows.Forms.BindingSource(this.components);
             this.gcDanhsachkhachhang = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.colMakhachhang = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colnum = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colTenkhachhang = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colGioitinh = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colTaikhoan = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -62,10 +63,10 @@
             this.DataGV = new System.Windows.Forms.DataGridView();
             this.mahangDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.hinhanhDataGridViewImageColumn = new System.Windows.Forms.DataGridViewImageColumn();
-            sdtLabel = new System.Windows.Forms.Label();
-            ngaysinhLabel = new System.Windows.Forms.Label();
-            cmndLabel = new System.Windows.Forms.Label();
             diachiLabel = new System.Windows.Forms.Label();
+            cmndLabel = new System.Windows.Forms.Label();
+            ngaysinhLabel = new System.Windows.Forms.Label();
+            sdtLabel = new System.Windows.Forms.Label();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureDSKH)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
@@ -78,23 +79,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.DataGV)).BeginInit();
             this.SuspendLayout();
             // 
-            // sdtLabel
+            // diachiLabel
             // 
-            sdtLabel.AutoSize = true;
-            sdtLabel.Location = new System.Drawing.Point(34, 78);
-            sdtLabel.Name = "sdtLabel";
-            sdtLabel.Size = new System.Drawing.Size(29, 13);
-            sdtLabel.TabIndex = 6;
-            sdtLabel.Text = "SĐT";
-            // 
-            // ngaysinhLabel
-            // 
-            ngaysinhLabel.AutoSize = true;
-            ngaysinhLabel.Location = new System.Drawing.Point(6, 23);
-            ngaysinhLabel.Name = "ngaysinhLabel";
-            ngaysinhLabel.Size = new System.Drawing.Size(56, 13);
-            ngaysinhLabel.TabIndex = 4;
-            ngaysinhLabel.Text = "Ngày Sinh";
+            diachiLabel.AutoSize = true;
+            diachiLabel.Location = new System.Drawing.Point(20, 49);
+            diachiLabel.Name = "diachiLabel";
+            diachiLabel.Size = new System.Drawing.Size(41, 13);
+            diachiLabel.TabIndex = 0;
+            diachiLabel.Text = "Địa Chỉ";
             // 
             // cmndLabel
             // 
@@ -105,21 +97,42 @@
             cmndLabel.TabIndex = 2;
             cmndLabel.Text = "CMND";
             // 
-            // diachiLabel
+            // ngaysinhLabel
             // 
-            diachiLabel.AutoSize = true;
-            diachiLabel.Location = new System.Drawing.Point(20, 49);
-            diachiLabel.Name = "diachiLabel";
-            diachiLabel.Size = new System.Drawing.Size(41, 13);
-            diachiLabel.TabIndex = 0;
-            diachiLabel.Text = "Địa Chỉ";
+            ngaysinhLabel.AutoSize = true;
+            ngaysinhLabel.Location = new System.Drawing.Point(6, 23);
+            ngaysinhLabel.Name = "ngaysinhLabel";
+            ngaysinhLabel.Size = new System.Drawing.Size(56, 13);
+            ngaysinhLabel.TabIndex = 4;
+            ngaysinhLabel.Text = "Ngày Sinh";
+            // 
+            // sdtLabel
+            // 
+            sdtLabel.AutoSize = true;
+            sdtLabel.Location = new System.Drawing.Point(34, 78);
+            sdtLabel.Name = "sdtLabel";
+            sdtLabel.Size = new System.Drawing.Size(29, 13);
+            sdtLabel.TabIndex = 6;
+            sdtLabel.Text = "SĐT";
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.btnSua);
+            this.groupBox2.Controls.Add(this.btnXoa);
+            this.groupBox2.Controls.Add(this.btnAdd);
+            this.groupBox2.Controls.Add(this.btnThemDong);
+            this.groupBox2.Location = new System.Drawing.Point(5, 362);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(503, 61);
+            this.groupBox2.TabIndex = 4;
+            this.groupBox2.TabStop = false;
             // 
             // btnSua
             // 
             this.btnSua.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSua.Appearance.Options.UseFont = true;
             this.btnSua.Image = ((System.Drawing.Image)(resources.GetObject("btnSua.Image")));
-            this.btnSua.Location = new System.Drawing.Point(384, 13);
+            this.btnSua.Location = new System.Drawing.Point(391, 13);
             this.btnSua.Name = "btnSua";
             this.btnSua.Size = new System.Drawing.Size(106, 42);
             this.btnSua.TabIndex = 0;
@@ -131,7 +144,7 @@
             this.btnXoa.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXoa.Appearance.Options.UseFont = true;
             this.btnXoa.Image = ((System.Drawing.Image)(resources.GetObject("btnXoa.Image")));
-            this.btnXoa.Location = new System.Drawing.Point(289, 13);
+            this.btnXoa.Location = new System.Drawing.Point(283, 13);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(82, 42);
             this.btnXoa.TabIndex = 0;
@@ -143,7 +156,7 @@
             this.btnAdd.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAdd.Appearance.Options.UseFont = true;
             this.btnAdd.Image = ((System.Drawing.Image)(resources.GetObject("btnAdd.Image")));
-            this.btnAdd.Location = new System.Drawing.Point(153, 13);
+            this.btnAdd.Location = new System.Drawing.Point(151, 13);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(117, 42);
             this.btnAdd.TabIndex = 0;
@@ -162,25 +175,13 @@
             this.btnThemDong.Text = "Thêm Dòng";
             this.btnThemDong.Click += new System.EventHandler(this.btnThemDong_Click);
             // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.btnSua);
-            this.groupBox2.Controls.Add(this.btnXoa);
-            this.groupBox2.Controls.Add(this.btnAdd);
-            this.groupBox2.Controls.Add(this.btnThemDong);
-            this.groupBox2.Location = new System.Drawing.Point(3, 356);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(503, 61);
-            this.groupBox2.TabIndex = 15;
-            this.groupBox2.TabStop = false;
-            // 
             // pictureDSKH
             // 
-            this.pictureDSKH.Location = new System.Drawing.Point(150, 72);
+            this.pictureDSKH.Location = new System.Drawing.Point(138, 72);
             this.pictureDSKH.Name = "pictureDSKH";
             this.pictureDSKH.Size = new System.Drawing.Size(290, 278);
             this.pictureDSKH.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureDSKH.TabIndex = 14;
+            this.pictureDSKH.TabIndex = 8;
             this.pictureDSKH.TabStop = false;
             // 
             // btnSuaAnh
@@ -188,10 +189,10 @@
             this.btnSuaAnh.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSuaAnh.Appearance.Options.UseFont = true;
             this.btnSuaAnh.Image = ((System.Drawing.Image)(resources.GetObject("btnSuaAnh.Image")));
-            this.btnSuaAnh.Location = new System.Drawing.Point(3, 173);
+            this.btnSuaAnh.Location = new System.Drawing.Point(9, 144);
             this.btnSuaAnh.Name = "btnSuaAnh";
             this.btnSuaAnh.Size = new System.Drawing.Size(123, 51);
-            this.btnSuaAnh.TabIndex = 12;
+            this.btnSuaAnh.TabIndex = 6;
             this.btnSuaAnh.Text = "Sửa Ảnh";
             this.btnSuaAnh.Click += new System.EventHandler(this.btnSuaAnh_Click);
             // 
@@ -200,23 +201,12 @@
             this.btnThemAnh.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThemAnh.Appearance.Options.UseFont = true;
             this.btnThemAnh.Image = ((System.Drawing.Image)(resources.GetObject("btnThemAnh.Image")));
-            this.btnThemAnh.Location = new System.Drawing.Point(3, 117);
+            this.btnThemAnh.Location = new System.Drawing.Point(8, 75);
             this.btnThemAnh.Name = "btnThemAnh";
             this.btnThemAnh.Size = new System.Drawing.Size(123, 50);
-            this.btnThemAnh.TabIndex = 13;
+            this.btnThemAnh.TabIndex = 7;
             this.btnThemAnh.Text = "Thêm Ảnh";
             this.btnThemAnh.Click += new System.EventHandler(this.btnThemAnh_Click);
-            // 
-            // labelControl1
-            // 
-            this.labelControl1.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.labelControl1.Appearance.Font = new System.Drawing.Font("Tahoma", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl1.Appearance.ForeColor = System.Drawing.Color.Red;
-            this.labelControl1.Location = new System.Drawing.Point(63, 13);
-            this.labelControl1.Name = "labelControl1";
-            this.labelControl1.Size = new System.Drawing.Size(812, 45);
-            this.labelControl1.TabIndex = 0;
-            this.labelControl1.Text = "DANH SÁCH KHÁCH HÀNG THÔNG THƯỜNG";
             // 
             // panelControl1
             // 
@@ -224,8 +214,20 @@
             this.panelControl1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelControl1.Location = new System.Drawing.Point(0, 0);
             this.panelControl1.Name = "panelControl1";
-            this.panelControl1.Size = new System.Drawing.Size(937, 63);
-            this.panelControl1.TabIndex = 11;
+            this.panelControl1.Size = new System.Drawing.Size(878, 63);
+            this.panelControl1.TabIndex = 9;
+            this.panelControl1.Paint += new System.Windows.Forms.PaintEventHandler(this.panelControl1_Paint);
+            // 
+            // labelControl1
+            // 
+            this.labelControl1.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.labelControl1.Appearance.Font = new System.Drawing.Font("Tahoma", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl1.Appearance.ForeColor = System.Drawing.Color.Red;
+            this.labelControl1.Location = new System.Drawing.Point(227, 9);
+            this.labelControl1.Name = "labelControl1";
+            this.labelControl1.Size = new System.Drawing.Size(486, 45);
+            this.labelControl1.TabIndex = 0;
+            this.labelControl1.Text = "DANH SÁCH KHÁCH HÀNG";
             // 
             // bdsDanhsachkhachhang
             // 
@@ -238,11 +240,11 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.gcDanhsachkhachhang.DataSource = this.bdsDanhsachkhachhang;
-            this.gcDanhsachkhachhang.Location = new System.Drawing.Point(0, 423);
+            this.gcDanhsachkhachhang.Location = new System.Drawing.Point(0, 429);
             this.gcDanhsachkhachhang.MainView = this.gridView1;
             this.gcDanhsachkhachhang.Name = "gcDanhsachkhachhang";
-            this.gcDanhsachkhachhang.Size = new System.Drawing.Size(937, 271);
-            this.gcDanhsachkhachhang.TabIndex = 16;
+            this.gcDanhsachkhachhang.Size = new System.Drawing.Size(878, 231);
+            this.gcDanhsachkhachhang.TabIndex = 10;
             this.gcDanhsachkhachhang.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
             // 
@@ -250,6 +252,7 @@
             // 
             this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
             this.colMakhachhang,
+            this.colnum,
             this.colTenkhachhang,
             this.colGioitinh,
             this.colTaikhoan,
@@ -257,6 +260,9 @@
             this.colCapbac});
             this.gridView1.GridControl = this.gcDanhsachkhachhang;
             this.gridView1.Name = "gridView1";
+            this.gridView1.OptionsView.ShowAutoFilterRow = true;
+            this.gridView1.SortInfo.AddRange(new DevExpress.XtraGrid.Columns.GridColumnSortInfo[] {
+            new DevExpress.XtraGrid.Columns.GridColumnSortInfo(this.colnum, DevExpress.Data.ColumnSortOrder.Ascending)});
             // 
             // colMakhachhang
             // 
@@ -264,7 +270,15 @@
             this.colMakhachhang.FieldName = "Makhachhang";
             this.colMakhachhang.Name = "colMakhachhang";
             this.colMakhachhang.Visible = true;
-            this.colMakhachhang.VisibleIndex = 0;
+            this.colMakhachhang.VisibleIndex = 1;
+            // 
+            // colnum
+            // 
+            this.colnum.Caption = "STT";
+            this.colnum.FieldName = "stt";
+            this.colnum.Name = "colnum";
+            this.colnum.Visible = true;
+            this.colnum.VisibleIndex = 0;
             // 
             // colTenkhachhang
             // 
@@ -272,7 +286,7 @@
             this.colTenkhachhang.FieldName = "Tenkhachhang";
             this.colTenkhachhang.Name = "colTenkhachhang";
             this.colTenkhachhang.Visible = true;
-            this.colTenkhachhang.VisibleIndex = 1;
+            this.colTenkhachhang.VisibleIndex = 2;
             // 
             // colGioitinh
             // 
@@ -280,7 +294,7 @@
             this.colGioitinh.FieldName = "Gioitinh";
             this.colGioitinh.Name = "colGioitinh";
             this.colGioitinh.Visible = true;
-            this.colGioitinh.VisibleIndex = 2;
+            this.colGioitinh.VisibleIndex = 3;
             // 
             // colTaikhoan
             // 
@@ -288,7 +302,7 @@
             this.colTaikhoan.FieldName = "Taikhoan";
             this.colTaikhoan.Name = "colTaikhoan";
             this.colTaikhoan.Visible = true;
-            this.colTaikhoan.VisibleIndex = 3;
+            this.colTaikhoan.VisibleIndex = 4;
             // 
             // colMatkhau
             // 
@@ -296,7 +310,7 @@
             this.colMatkhau.FieldName = "Matkhau";
             this.colMatkhau.Name = "colMatkhau";
             this.colMatkhau.Visible = true;
-            this.colMatkhau.VisibleIndex = 4;
+            this.colMatkhau.VisibleIndex = 5;
             // 
             // colCapbac
             // 
@@ -304,7 +318,7 @@
             this.colCapbac.FieldName = "Capbac";
             this.colCapbac.Name = "colCapbac";
             this.colCapbac.Visible = true;
-            this.colCapbac.VisibleIndex = 5;
+            this.colCapbac.VisibleIndex = 6;
             // 
             // groupBox1
             // 
@@ -317,12 +331,13 @@
             this.groupBox1.Controls.Add(this.cmndTextBox);
             this.groupBox1.Controls.Add(diachiLabel);
             this.groupBox1.Controls.Add(this.diachiTextBox);
-            this.groupBox1.Location = new System.Drawing.Point(667, 72);
+            this.groupBox1.Location = new System.Drawing.Point(608, 69);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(270, 144);
-            this.groupBox1.TabIndex = 17;
+            this.groupBox1.TabIndex = 11;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông Tin Chi Tiết";
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // sdtTextBox
             // 
@@ -362,19 +377,17 @@
             // 
             // DataGV
             // 
-            this.DataGV.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.DataGV.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.DataGV.AutoGenerateColumns = false;
             this.DataGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DataGV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.mahangDataGridViewTextBoxColumn,
             this.hinhanhDataGridViewImageColumn});
             this.DataGV.DataSource = this.bdsHinhanh;
-            this.DataGV.Location = new System.Drawing.Point(920, 222);
+            this.DataGV.Location = new System.Drawing.Point(865, 219);
             this.DataGV.Name = "DataGV";
-            this.DataGV.Size = new System.Drawing.Size(13, 17);
-            this.DataGV.TabIndex = 18;
+            this.DataGV.Size = new System.Drawing.Size(10, 10);
+            this.DataGV.TabIndex = 12;
             this.DataGV.Visible = false;
             // 
             // mahangDataGridViewTextBoxColumn
@@ -389,21 +402,21 @@
             this.hinhanhDataGridViewImageColumn.HeaderText = "Hinhanh";
             this.hinhanhDataGridViewImageColumn.Name = "hinhanhDataGridViewImageColumn";
             // 
-            // ucKhachhangthongthuong
+            // ucDanhsachkhachhang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.DataGV);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.gcDanhsachkhachhang);
-            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.panelControl1);
             this.Controls.Add(this.pictureDSKH);
             this.Controls.Add(this.btnSuaAnh);
             this.Controls.Add(this.btnThemAnh);
-            this.Controls.Add(this.panelControl1);
-            this.Name = "ucKhachhangthongthuong";
-            this.Size = new System.Drawing.Size(937, 694);
-            this.Load += new System.EventHandler(this.ucKhachhangthongthuong_Load);
+            this.Controls.Add(this.groupBox2);
+            this.Name = "ucDanhsachkhachhang";
+            this.Size = new System.Drawing.Size(878, 660);
+            this.Load += new System.EventHandler(this.ucDanhsachkhachhang_Load);
             this.groupBox2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureDSKH)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
@@ -422,20 +435,21 @@
 
         #endregion
 
+        private System.Windows.Forms.GroupBox groupBox2;
         private DevExpress.XtraEditors.SimpleButton btnSua;
         private DevExpress.XtraEditors.SimpleButton btnXoa;
-        private DevExpress.XtraEditors.SimpleButton btnAdd;
         private DevExpress.XtraEditors.SimpleButton btnThemDong;
-        private System.Windows.Forms.GroupBox groupBox2;
+        private DevExpress.XtraEditors.SimpleButton btnAdd;
         private System.Windows.Forms.PictureBox pictureDSKH;
         private DevExpress.XtraEditors.SimpleButton btnSuaAnh;
         private DevExpress.XtraEditors.SimpleButton btnThemAnh;
-        private DevExpress.XtraEditors.LabelControl labelControl1;
         private DevExpress.XtraEditors.PanelControl panelControl1;
+        private DevExpress.XtraEditors.LabelControl labelControl1;
         private System.Windows.Forms.BindingSource bdsDanhsachkhachhang;
         private DevExpress.XtraGrid.GridControl gcDanhsachkhachhang;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
         private DevExpress.XtraGrid.Columns.GridColumn colMakhachhang;
+        private DevExpress.XtraGrid.Columns.GridColumn colnum;
         private DevExpress.XtraGrid.Columns.GridColumn colTenkhachhang;
         private DevExpress.XtraGrid.Columns.GridColumn colGioitinh;
         private DevExpress.XtraGrid.Columns.GridColumn colTaikhoan;

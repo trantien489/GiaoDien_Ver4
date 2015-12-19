@@ -51,7 +51,7 @@ namespace QuanLyCuaHangDienThoai
                     int kq = Model.dangnhap(sql);
                     if (kq == 1)
                     {
-                        user us = new user();
+                        user us = new user(txtTaiKhoan.Text);
                         us.Show();
                         this.Hide();
                     }

@@ -76,25 +76,28 @@ namespace QuanLyCuaHangDienThoai.User_control
 
         private void bdnDanhsachhanghoa_PositionChanged(object sender, EventArgs e)
         {
-            var cur = bdnDanhsachhanghoa.Current as Danhsachhanghoa;
-            if (cur.Mahang != null)
+            if (bdnDanhsachhanghoa.Count != 0)
             {
-                var sql = "select Mahang, Count(Mahang) from Hinhanh where Mahang = " + "'" + cur.Mahang + "'" + "group by Mahang";
-                if (Model.dangnhap(sql) == 1)
+                var cur = bdnDanhsachhanghoa.Current as Danhsachhanghoa;
+                if (cur.Mahang != null)
                 {
-                    //DataGV.DataSource = Model.GetPictureHanghoa(cur.Mahang);
-                    //Image hinh = ByteArrayToImage((byte[])DataGV.CurrentRow.Cells[0].Value);
-                    //pictureDSHH.Image = hinh;
-                    //ResetControlValues(DataGV);
-                    bdsHinhanh.DataSource = Model.GetPicture(cur.Mahang);
-                    Image hinh = ByteArrayToImage((byte[])DataGV.CurrentRow.Cells[1].Value);                  
-                    pictureDSHH.Image = hinh;
-                    ResetControlValues(DataGV);
+                    var sql = "select Mahang, Count(Mahang) from HinhAnh where Mahang = " + "'" + cur.Mahang + "'" + "group by Mahang";
+                    if (Model.dangnhap(sql) == 1)
+                    {
+                        bdsHinhanh.DataSource = Model.GetPicture(cur.Mahang);
+                        Image hinh = ByteArrayToImage((byte[])DataGV.CurrentRow.Cells[1].Value);
+                        pictureDSHH.Image = hinh;
+                        ResetControlValues(DataGV);
+                    }
+                    else
+                    {
+                        pictureDSHH.Image = null;
+                    }
                 }
-                else
-                {
-                    pictureDSHH.Image = null;
-                }
+            }
+            else
+            {
+                pictureDSHH.Image = null;
             }
         }
 

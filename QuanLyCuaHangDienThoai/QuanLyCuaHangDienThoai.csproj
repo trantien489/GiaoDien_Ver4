@@ -82,67 +82,65 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="User control\ucBaoHanh.cs">
+    <Compile Include="User control Admin\ucDanhsachsukien.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="User control\ucBaoHanh.Designer.cs">
-      <DependentUpon>ucBaoHanh.cs</DependentUpon>
-    </Compile>
-    <Compile Include="User control\ucDanhsachsukien.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="User control\ucDanhsachsukien.Designer.cs">
+    <Compile Include="User control Admin\ucDanhsachsukien.Designer.cs">
       <DependentUpon>ucDanhsachsukien.cs</DependentUpon>
     </Compile>
-    <Compile Include="User control\ucKhachhangthanthiet.cs">
+    <Compile Include="User control Admin\ucKhachhangthanthiet.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="User control\ucKhachhangthanthiet.Designer.cs">
+    <Compile Include="User control Admin\ucKhachhangthanthiet.Designer.cs">
       <DependentUpon>ucKhachhangthanthiet.cs</DependentUpon>
     </Compile>
-    <Compile Include="User control\ucDanhsachhanghoa.cs">
+    <Compile Include="User control Admin\ucDanhsachhanghoa.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="User control\ucDanhsachhanghoa.Designer.cs">
+    <Compile Include="User control Admin\ucDanhsachhanghoa.Designer.cs">
       <DependentUpon>ucDanhsachhanghoa.cs</DependentUpon>
     </Compile>
-    <Compile Include="User control\ucDanhsachkhachhang.cs">
+    <Compile Include="User control Admin\ucDanhsachkhachhang.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="User control\ucDanhsachkhachhang.Designer.cs">
+    <Compile Include="User control Admin\ucDanhsachkhachhang.Designer.cs">
       <DependentUpon>ucDanhsachkhachhang.cs</DependentUpon>
     </Compile>
-    <Compile Include="User control\ucKhachhangthongthuong.cs">
+    <Compile Include="User control Admin\ucKhachhangthongthuong.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="User control\ucKhachhangthongthuong.Designer.cs">
+    <Compile Include="User control Admin\ucKhachhangthongthuong.Designer.cs">
       <DependentUpon>ucKhachhangthongthuong.cs</DependentUpon>
     </Compile>
-<<<<<<< HEAD
-    <Compile Include="User control\ucTaikhoancanhan.cs">
+    <Compile Include="User control Admin\ucTinnhanAd.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="User control\ucTaikhoancanhan.Designer.cs">
-      <DependentUpon>ucTaikhoancanhan.cs</DependentUpon>
-=======
-    <Compile Include="User control\ucLienhe.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="User control\ucLienhe.Designer.cs">
-      <DependentUpon>ucLienhe.cs</DependentUpon>
->>>>>>> 2a6d3a14972f993d89a570bc3439f1dfe0cfa30b
-    </Compile>
-    <Compile Include="User control\ucTinnhanAd.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="User control\ucTinnhanAd.Designer.cs">
+    <Compile Include="User control Admin\ucTinnhanAd.Designer.cs">
       <DependentUpon>ucTinnhanAd.cs</DependentUpon>
     </Compile>
-    <Compile Include="User control\usAdmin.cs">
+    <Compile Include="User control Admin\usAdmin.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="User control\usAdmin.Designer.cs">
+    <Compile Include="User control Admin\usAdmin.Designer.cs">
       <DependentUpon>usAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User control Khach hang\UcDanhsachsanpham.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User control Khach hang\UcDanhsachsanpham.Designer.cs">
+      <DependentUpon>UcDanhsachsanpham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User control Khach hang\UcGiohang.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User control Khach hang\UcGiohang.Designer.cs">
+      <DependentUpon>UcGiohang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User control Khach hang\UcKhuyenmai.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User control Khach hang\UcKhuyenmai.Designer.cs">
+      <DependentUpon>UcKhuyenmai.cs</DependentUpon>
     </Compile>
     <Compile Include="user.cs">
       <SubType>Form</SubType>
@@ -173,37 +171,35 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="User control\ucBaoHanh.resx">
-      <DependentUpon>ucBaoHanh.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="User control\ucDanhsachsukien.resx">
+    <EmbeddedResource Include="User control Admin\ucDanhsachsukien.resx">
       <DependentUpon>ucDanhsachsukien.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="User control\ucKhachhangthanthiet.resx">
+    <EmbeddedResource Include="User control Admin\ucKhachhangthanthiet.resx">
       <DependentUpon>ucKhachhangthanthiet.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="User control\ucDanhsachhanghoa.resx">
+    <EmbeddedResource Include="User control Admin\ucDanhsachhanghoa.resx">
       <DependentUpon>ucDanhsachhanghoa.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="User control\ucDanhsachkhachhang.resx">
+    <EmbeddedResource Include="User control Admin\ucDanhsachkhachhang.resx">
       <DependentUpon>ucDanhsachkhachhang.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="User control\ucKhachhangthongthuong.resx">
+    <EmbeddedResource Include="User control Admin\ucKhachhangthongthuong.resx">
       <DependentUpon>ucKhachhangthongthuong.cs</DependentUpon>
     </EmbeddedResource>
-<<<<<<< HEAD
-    <EmbeddedResource Include="User control\ucTaikhoancanhan.resx">
-      <DependentUpon>ucTaikhoancanhan.cs</DependentUpon>
-=======
-    <EmbeddedResource Include="User control\ucLienhe.resx">
-      <DependentUpon>ucLienhe.cs</DependentUpon>
->>>>>>> 2a6d3a14972f993d89a570bc3439f1dfe0cfa30b
-    </EmbeddedResource>
-    <EmbeddedResource Include="User control\ucTinnhanAd.resx">
+    <EmbeddedResource Include="User control Admin\ucTinnhanAd.resx">
       <DependentUpon>ucTinnhanAd.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="User control\usAdmin.resx">
+    <EmbeddedResource Include="User control Admin\usAdmin.resx">
       <DependentUpon>usAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User control Khach hang\UcDanhsachsanpham.resx">
+      <DependentUpon>UcDanhsachsanpham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User control Khach hang\UcGiohang.resx">
+      <DependentUpon>UcGiohang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User control Khach hang\UcKhuyenmai.resx">
+      <DependentUpon>UcKhuyenmai.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="user.resx">
       <DependentUpon>user.cs</DependentUpon>
@@ -211,6 +207,7 @@
     <None Include="Properties\DataSources\DataAccess.Danhsachhanghoa.datasource" />
     <None Include="Properties\DataSources\DataAccess.Danhsachkhachhang.datasource" />
     <None Include="Properties\DataSources\DataAccess.Danhsachsukien.datasource" />
+    <None Include="Properties\DataSources\DataAccess.Giohang.datasource" />
     <None Include="Properties\DataSources\DataAccess.HinhAnh.datasource" />
     <None Include="Properties\DataSources\DataAccess.TinnhanAd.datasource" />
     <None Include="Properties\Settings.settings">
@@ -244,6 +241,7 @@
   <ItemGroup>
     <None Include="Resources\Apply.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

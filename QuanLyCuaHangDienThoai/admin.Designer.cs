@@ -60,7 +60,7 @@
             this.panelControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelControl1.Location = new System.Drawing.Point(0, 0);
             this.panelControl1.Name = "panelControl1";
-            this.panelControl1.Size = new System.Drawing.Size(759, 457);
+            this.panelControl1.Size = new System.Drawing.Size(758, 638);
             this.panelControl1.TabIndex = 0;
             // 
             // navBarSeparatorItem5
@@ -87,12 +87,21 @@
             // 
             // navBarTinNhan
             // 
-            this.navBarTinNhan.Caption = "Quản lý tin nhắn";
+            this.navBarTinNhan.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.navBarTinNhan.Appearance.Options.UseFont = true;
+            this.navBarTinNhan.AppearanceHotTracked.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.navBarTinNhan.AppearanceHotTracked.ForeColor = System.Drawing.Color.Blue;
+            this.navBarTinNhan.AppearanceHotTracked.Options.UseFont = true;
+            this.navBarTinNhan.AppearanceHotTracked.Options.UseForeColor = true;
+            this.navBarTinNhan.Caption = "Tin nhắn";
             this.navBarTinNhan.Name = "navBarTinNhan";
+            this.navBarTinNhan.SmallImage = ((System.Drawing.Image)(resources.GetObject("navBarTinNhan.SmallImage")));
             this.navBarTinNhan.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.navBarTinNhan_LinkClicked);
             // 
             // navBarGroup2
             // 
+            this.navBarGroup2.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.navBarGroup2.Appearance.Options.UseFont = true;
             this.navBarGroup2.Caption = "TIN NHẮN";
             this.navBarGroup2.Expanded = true;
             this.navBarGroup2.ItemLinks.AddRange(new DevExpress.XtraNavBar.NavBarItemLink[] {
@@ -101,12 +110,21 @@
             // 
             // navBarDSSuKien
             // 
+            this.navBarDSSuKien.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.navBarDSSuKien.Appearance.Options.UseFont = true;
+            this.navBarDSSuKien.AppearanceHotTracked.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.navBarDSSuKien.AppearanceHotTracked.ForeColor = System.Drawing.Color.Blue;
+            this.navBarDSSuKien.AppearanceHotTracked.Options.UseFont = true;
+            this.navBarDSSuKien.AppearanceHotTracked.Options.UseForeColor = true;
             this.navBarDSSuKien.Caption = "Danh sách sự kiện";
             this.navBarDSSuKien.Name = "navBarDSSuKien";
+            this.navBarDSSuKien.SmallImage = ((System.Drawing.Image)(resources.GetObject("navBarDSSuKien.SmallImage")));
             this.navBarDSSuKien.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.navBarDSSuKien_LinkClicked);
             // 
             // navBarGroup3
             // 
+            this.navBarGroup3.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.navBarGroup3.Appearance.Options.UseFont = true;
             this.navBarGroup3.Caption = "SỰ KIỆN";
             this.navBarGroup3.Expanded = true;
             this.navBarGroup3.ItemLinks.AddRange(new DevExpress.XtraNavBar.NavBarItemLink[] {
@@ -115,8 +133,15 @@
             // 
             // navBarKHThongThuong
             // 
+            this.navBarKHThongThuong.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.navBarKHThongThuong.Appearance.Options.UseFont = true;
+            this.navBarKHThongThuong.AppearanceHotTracked.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.navBarKHThongThuong.AppearanceHotTracked.ForeColor = System.Drawing.Color.Blue;
+            this.navBarKHThongThuong.AppearanceHotTracked.Options.UseFont = true;
+            this.navBarKHThongThuong.AppearanceHotTracked.Options.UseForeColor = true;
             this.navBarKHThongThuong.Caption = "Khách hàng thông thường";
             this.navBarKHThongThuong.Name = "navBarKHThongThuong";
+            this.navBarKHThongThuong.SmallImage = ((System.Drawing.Image)(resources.GetObject("navBarKHThongThuong.SmallImage")));
             this.navBarKHThongThuong.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.navBarKHThongThuong_LinkClicked);
             // 
             // navBarSeparatorItem3
@@ -132,8 +157,15 @@
             // 
             // navBarKHThanThiet
             // 
+            this.navBarKHThanThiet.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.navBarKHThanThiet.Appearance.Options.UseFont = true;
+            this.navBarKHThanThiet.AppearanceHotTracked.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.navBarKHThanThiet.AppearanceHotTracked.ForeColor = System.Drawing.Color.Blue;
+            this.navBarKHThanThiet.AppearanceHotTracked.Options.UseFont = true;
+            this.navBarKHThanThiet.AppearanceHotTracked.Options.UseForeColor = true;
             this.navBarKHThanThiet.Caption = "Khách hàng thân thiết";
             this.navBarKHThanThiet.Name = "navBarKHThanThiet";
+            this.navBarKHThanThiet.SmallImage = ((System.Drawing.Image)(resources.GetObject("navBarKHThanThiet.SmallImage")));
             this.navBarKHThanThiet.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.navBarKHThanThiet_LinkClicked);
             // 
             // navBarSeparatorItem1
@@ -149,12 +181,24 @@
             // 
             // navBarDSKhachHang
             // 
+            this.navBarDSKhachHang.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.navBarDSKhachHang.Appearance.Options.UseFont = true;
+            this.navBarDSKhachHang.AppearanceDisabled.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.navBarDSKhachHang.AppearanceDisabled.Options.UseFont = true;
+            this.navBarDSKhachHang.AppearanceHotTracked.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.navBarDSKhachHang.AppearanceHotTracked.ForeColor = System.Drawing.Color.Blue;
+            this.navBarDSKhachHang.AppearanceHotTracked.Options.UseFont = true;
+            this.navBarDSKhachHang.AppearanceHotTracked.Options.UseForeColor = true;
             this.navBarDSKhachHang.Caption = "Danh sách khách hàng";
+            this.navBarDSKhachHang.LargeImage = ((System.Drawing.Image)(resources.GetObject("navBarDSKhachHang.LargeImage")));
             this.navBarDSKhachHang.Name = "navBarDSKhachHang";
+            this.navBarDSKhachHang.SmallImage = ((System.Drawing.Image)(resources.GetObject("navBarDSKhachHang.SmallImage")));
             this.navBarDSKhachHang.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.navBarDSKhachHang_LinkClicked);
             // 
             // navBarQLKhachHang
             // 
+            this.navBarQLKhachHang.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.navBarQLKhachHang.Appearance.Options.UseFont = true;
             this.navBarQLKhachHang.Caption = "KHÁCH HÀNG";
             this.navBarQLKhachHang.Expanded = true;
             this.navBarQLKhachHang.ItemLinks.AddRange(new DevExpress.XtraNavBar.NavBarItemLink[] {
@@ -183,13 +227,22 @@
             // 
             // navBarQLKho
             // 
+            this.navBarQLKho.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.navBarQLKho.Appearance.Options.UseFont = true;
+            this.navBarQLKho.AppearanceHotTracked.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.navBarQLKho.AppearanceHotTracked.ForeColor = System.Drawing.Color.Blue;
+            this.navBarQLKho.AppearanceHotTracked.Options.UseFont = true;
+            this.navBarQLKho.AppearanceHotTracked.Options.UseForeColor = true;
             this.navBarQLKho.Caption = "Quản lý kho hàng";
             this.navBarQLKho.LargeImage = ((System.Drawing.Image)(resources.GetObject("navBarQLKho.LargeImage")));
             this.navBarQLKho.Name = "navBarQLKho";
+            this.navBarQLKho.SmallImage = ((System.Drawing.Image)(resources.GetObject("navBarQLKho.SmallImage")));
             this.navBarQLKho.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.navBarQLKho_LinkClicked);
             // 
             // navBarGroup1
             // 
+            this.navBarGroup1.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.navBarGroup1.Appearance.Options.UseFont = true;
             this.navBarGroup1.Caption = "KHO HÀNG";
             this.navBarGroup1.Expanded = true;
             this.navBarGroup1.ItemLinks.AddRange(new DevExpress.XtraNavBar.NavBarItemLink[] {
@@ -205,8 +258,8 @@
             this.splitContainerControl1.Panel1.Text = "Panel1";
             this.splitContainerControl1.Panel2.Controls.Add(this.panelControl1);
             this.splitContainerControl1.Panel2.Text = "Panel2";
-            this.splitContainerControl1.Size = new System.Drawing.Size(985, 457);
-            this.splitContainerControl1.SplitterPosition = 221;
+            this.splitContainerControl1.Size = new System.Drawing.Size(1061, 638);
+            this.splitContainerControl1.SplitterPosition = 298;
             this.splitContainerControl1.TabIndex = 1;
             this.splitContainerControl1.Text = "splitContainerControl1";
             // 
@@ -214,6 +267,7 @@
             // 
             this.navBarControl1.ActiveGroup = this.navBarGroup1;
             this.navBarControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.navBarControl1.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.navBarControl1.Groups.AddRange(new DevExpress.XtraNavBar.NavBarGroup[] {
             this.navBarGroup1,
             this.navBarQLKhachHang,
@@ -235,8 +289,8 @@
             this.navBarTinNhan});
             this.navBarControl1.Location = new System.Drawing.Point(0, 0);
             this.navBarControl1.Name = "navBarControl1";
-            this.navBarControl1.OptionsNavPane.ExpandedWidth = 221;
-            this.navBarControl1.Size = new System.Drawing.Size(221, 457);
+            this.navBarControl1.OptionsNavPane.ExpandedWidth = 298;
+            this.navBarControl1.Size = new System.Drawing.Size(298, 638);
             this.navBarControl1.TabIndex = 0;
             this.navBarControl1.Text = "navBarControl1";
             // 
@@ -255,10 +309,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(985, 457);
+            this.ClientSize = new System.Drawing.Size(1061, 638);
             this.Controls.Add(this.splitContainerControl1);
             this.Name = "admin";
-            this.Text = "admin";
+            this.Text = "QUẢN LÝ";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.admin_Load);
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
