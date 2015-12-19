@@ -30,8 +30,9 @@ namespace QuanLyCuaHangDienThoai.User_control
 
         private void ucTinnhanAd_Load(object sender, EventArgs e)
         {
-            (gcTinnhanAd.MainView as DevExpress.XtraGrid.Views.Grid.GridView).AddNewRow();
+            bdsTinnhanAd.DataSource = Model.GetTinnhanAdItems();
         }
 
     }
 }
+ 
