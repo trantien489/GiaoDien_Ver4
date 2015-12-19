@@ -82,6 +82,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="User control\ucBaoHanh.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User control\ucBaoHanh.Designer.cs">
+      <DependentUpon>ucBaoHanh.cs</DependentUpon>
+    </Compile>
     <Compile Include="User control\ucDanhsachsukien.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -112,11 +118,19 @@
     <Compile Include="User control\ucKhachhangthongthuong.Designer.cs">
       <DependentUpon>ucKhachhangthongthuong.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="User control\ucTaikhoancanhan.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="User control\ucTaikhoancanhan.Designer.cs">
       <DependentUpon>ucTaikhoancanhan.cs</DependentUpon>
+=======
+    <Compile Include="User control\ucLienhe.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User control\ucLienhe.Designer.cs">
+      <DependentUpon>ucLienhe.cs</DependentUpon>
+>>>>>>> 2a6d3a14972f993d89a570bc3439f1dfe0cfa30b
     </Compile>
     <Compile Include="User control\ucTinnhanAd.cs">
       <SubType>UserControl</SubType>
@@ -159,6 +173,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="User control\ucBaoHanh.resx">
+      <DependentUpon>ucBaoHanh.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="User control\ucDanhsachsukien.resx">
       <DependentUpon>ucDanhsachsukien.cs</DependentUpon>
     </EmbeddedResource>
@@ -174,8 +191,13 @@
     <EmbeddedResource Include="User control\ucKhachhangthongthuong.resx">
       <DependentUpon>ucKhachhangthongthuong.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
     <EmbeddedResource Include="User control\ucTaikhoancanhan.resx">
       <DependentUpon>ucTaikhoancanhan.cs</DependentUpon>
+=======
+    <EmbeddedResource Include="User control\ucLienhe.resx">
+      <DependentUpon>ucLienhe.cs</DependentUpon>
+>>>>>>> 2a6d3a14972f993d89a570bc3439f1dfe0cfa30b
     </EmbeddedResource>
     <EmbeddedResource Include="User control\ucTinnhanAd.resx">
       <DependentUpon>ucTinnhanAd.cs</DependentUpon>
