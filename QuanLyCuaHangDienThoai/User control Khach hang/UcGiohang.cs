@@ -14,11 +14,13 @@ namespace QuanLyCuaHangDienThoai.User_control_Khach_hang
 {
     public partial class UcGiohang : UserControl
     {
+       
         public UcGiohang()
         {
+            
             InitializeComponent();
         }
-          public static void ResetControlValues(Control Parent)
+        public static void ResetControlValues(Control Parent)
         {
             foreach (Control mycontrols in Parent.Controls)
                 if (mycontrols is TextBox)

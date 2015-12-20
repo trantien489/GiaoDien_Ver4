@@ -22,7 +22,7 @@ namespace QuanLyCuaHangDienThoai
         private void navBarDSSanPham_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
         {
             panelControl1.Controls.Clear();
-            UcDanhsachsanpham frm = new UcDanhsachsanpham();
+            UcDanhsachsanpham frm = new UcDanhsachsanpham(TaiKhoan);
             frm.Dock = System.Windows.Forms.DockStyle.Fill;
             panelControl1.Controls.Add(frm);
         }

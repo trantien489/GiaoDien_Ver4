@@ -45,9 +45,9 @@
             this.mahangDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.hinhanhDataGridViewImageColumn = new System.Windows.Forms.DataGridViewImageColumn();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
-            this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
-            this.cmb = new System.Windows.Forms.ComboBox();
             this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
+            this.cmb = new System.Windows.Forms.ComboBox();
+            this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bdsGiohang)).BeginInit();
@@ -206,24 +206,6 @@
             this.groupControl1.TabIndex = 7;
             this.groupControl1.Text = "ĐẶT HÀNG";
             // 
-            // labelControl2
-            // 
-            this.labelControl2.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl2.Location = new System.Drawing.Point(9, 44);
-            this.labelControl2.Name = "labelControl2";
-            this.labelControl2.Size = new System.Drawing.Size(256, 23);
-            this.labelControl2.TabIndex = 0;
-            this.labelControl2.Text = "Chọn hình thức thanh toán";
-            // 
-            // cmb
-            // 
-            this.cmb.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmb.FormattingEnabled = true;
-            this.cmb.Location = new System.Drawing.Point(55, 73);
-            this.cmb.Name = "cmb";
-            this.cmb.Size = new System.Drawing.Size(173, 24);
-            this.cmb.TabIndex = 1;
-            // 
             // simpleButton1
             // 
             this.simpleButton1.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -234,6 +216,24 @@
             this.simpleButton1.Size = new System.Drawing.Size(98, 52);
             this.simpleButton1.TabIndex = 2;
             this.simpleButton1.Text = "OK";
+            // 
+            // cmb
+            // 
+            this.cmb.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmb.FormattingEnabled = true;
+            this.cmb.Location = new System.Drawing.Point(55, 73);
+            this.cmb.Name = "cmb";
+            this.cmb.Size = new System.Drawing.Size(173, 24);
+            this.cmb.TabIndex = 1;
+            // 
+            // labelControl2
+            // 
+            this.labelControl2.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl2.Location = new System.Drawing.Point(9, 44);
+            this.labelControl2.Name = "labelControl2";
+            this.labelControl2.Size = new System.Drawing.Size(256, 23);
+            this.labelControl2.TabIndex = 0;
+            this.labelControl2.Text = "Chọn hình thức thanh toán";
             // 
             // UcGiohang
             // 

@@ -57,6 +57,14 @@
             this.DataGV = new System.Windows.Forms.DataGridView();
             this.mahangDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.hinhanhDataGridViewImageColumn = new System.Windows.Forms.DataGridViewImageColumn();
+            this.gridControl2 = new DevExpress.XtraGrid.GridControl();
+            this.gridView2 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.bdsGiohang = new System.Windows.Forms.BindingSource(this.components);
+            this.colMahang = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colTenhang1 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colGiaban = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colTaikhoan = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colMahd = new DevExpress.XtraGrid.Columns.GridColumn();
             cameraLabel = new System.Windows.Forms.Label();
             cauhinhLabel = new System.Windows.Forms.Label();
             giabanLabel = new System.Windows.Forms.Label();
@@ -73,6 +81,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureSP)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DataGV)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bdsGiohang)).BeginInit();
             this.SuspendLayout();
             // 
             // cameraLabel
@@ -327,10 +338,72 @@
             this.hinhanhDataGridViewImageColumn.HeaderText = "Hinhanh";
             this.hinhanhDataGridViewImageColumn.Name = "hinhanhDataGridViewImageColumn";
             // 
+            // gridControl2
+            // 
+            this.gridControl2.DataSource = this.bdsGiohang;
+            this.gridControl2.Location = new System.Drawing.Point(583, 454);
+            this.gridControl2.MainView = this.gridView2;
+            this.gridControl2.Name = "gridControl2";
+            this.gridControl2.Size = new System.Drawing.Size(395, 80);
+            this.gridControl2.TabIndex = 7;
+            this.gridControl2.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.gridView2});
+            // 
+            // gridView2
+            // 
+            this.gridView2.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.colMahang,
+            this.colTenhang1,
+            this.colGiaban,
+            this.colTaikhoan,
+            this.colMahd});
+            this.gridView2.GridControl = this.gridControl2;
+            this.gridView2.Name = "gridView2";
+            // 
+            // bdsGiohang
+            // 
+            this.bdsGiohang.DataSource = typeof(DataAccess.Giohang);
+            // 
+            // colMahang
+            // 
+            this.colMahang.FieldName = "Mahang";
+            this.colMahang.Name = "colMahang";
+            this.colMahang.Visible = true;
+            this.colMahang.VisibleIndex = 0;
+            // 
+            // colTenhang1
+            // 
+            this.colTenhang1.FieldName = "Tenhang";
+            this.colTenhang1.Name = "colTenhang1";
+            this.colTenhang1.Visible = true;
+            this.colTenhang1.VisibleIndex = 1;
+            // 
+            // colGiaban
+            // 
+            this.colGiaban.FieldName = "Giaban";
+            this.colGiaban.Name = "colGiaban";
+            this.colGiaban.Visible = true;
+            this.colGiaban.VisibleIndex = 2;
+            // 
+            // colTaikhoan
+            // 
+            this.colTaikhoan.FieldName = "Taikhoan";
+            this.colTaikhoan.Name = "colTaikhoan";
+            this.colTaikhoan.Visible = true;
+            this.colTaikhoan.VisibleIndex = 3;
+            // 
+            // colMahd
+            // 
+            this.colMahd.FieldName = "Mahd";
+            this.colMahd.Name = "colMahd";
+            this.colMahd.Visible = true;
+            this.colMahd.VisibleIndex = 4;
+            // 
             // UcDanhsachsanpham
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.gridControl2);
             this.Controls.Add(this.DataGV);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnThemGioHang);
@@ -351,6 +424,9 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DataGV)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bdsGiohang)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -377,5 +453,13 @@
         private System.Windows.Forms.DataGridView DataGV;
         private System.Windows.Forms.DataGridViewTextBoxColumn mahangDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewImageColumn hinhanhDataGridViewImageColumn;
+        private DevExpress.XtraGrid.GridControl gridControl2;
+        private System.Windows.Forms.BindingSource bdsGiohang;
+        private DevExpress.XtraGrid.Views.Grid.GridView gridView2;
+        private DevExpress.XtraGrid.Columns.GridColumn colMahang;
+        private DevExpress.XtraGrid.Columns.GridColumn colTenhang1;
+        private DevExpress.XtraGrid.Columns.GridColumn colGiaban;
+        private DevExpress.XtraGrid.Columns.GridColumn colTaikhoan;
+        private DevExpress.XtraGrid.Columns.GridColumn colMahd;
     }
 }

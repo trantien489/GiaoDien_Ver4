@@ -14,8 +14,10 @@ namespace QuanLyCuaHangDienThoai.User_control_Khach_hang
 {
     public partial class UcDanhsachsanpham : UserControl
     {
-        public UcDanhsachsanpham()
+        public string Taikhoan { get; set; }
+        public UcDanhsachsanpham( string s)
         {
+            Taikhoan = s;
             InitializeComponent();
         }
  
@@ -80,6 +82,8 @@ namespace QuanLyCuaHangDienThoai.User_control_Khach_hang
             giohang.Mahang = cur.Mahang;
             giohang.Tenhang = cur.Tenhang;
             giohang.Giaban = cur.Giaban;
+            bdsGiohang.DataSource = Model.GetGioHangItems();
+            //gridView2.GetRowCellValue();
             if (cur != null)
             {
                 Model.InsertGioHang(giohang);

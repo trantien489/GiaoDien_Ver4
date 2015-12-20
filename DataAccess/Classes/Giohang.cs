@@ -11,5 +11,7 @@ namespace DataAccess
         public string Mahang { get; set; }
         public string Tenhang { get; set; }
         public int Giaban { get; set; }
+        public string Taikhoan { get; set; }
+        public string Mahd {get;set;}
     }
 }
