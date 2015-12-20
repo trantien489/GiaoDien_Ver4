@@ -82,6 +82,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="User control Admin\BaoHanh.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User control Admin\BaoHanh.Designer.cs">
+      <DependentUpon>BaoHanh.cs</DependentUpon>
+    </Compile>
     <Compile Include="User control Admin\ucDanhsachsukien.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -111,6 +117,12 @@
     </Compile>
     <Compile Include="User control Admin\ucKhachhangthongthuong.Designer.cs">
       <DependentUpon>ucKhachhangthongthuong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User control Admin\ucLienHe.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User control Admin\ucLienHe.Designer.cs">
+      <DependentUpon>ucLienHe.cs</DependentUpon>
     </Compile>
     <Compile Include="User control Admin\ucTinnhanAd.cs">
       <SubType>UserControl</SubType>
@@ -171,6 +183,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="User control Admin\BaoHanh.resx">
+      <DependentUpon>BaoHanh.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="User control Admin\ucDanhsachsukien.resx">
       <DependentUpon>ucDanhsachsukien.cs</DependentUpon>
     </EmbeddedResource>
@@ -185,6 +200,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="User control Admin\ucKhachhangthongthuong.resx">
       <DependentUpon>ucKhachhangthongthuong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User control Admin\ucLienHe.resx">
+      <DependentUpon>ucLienHe.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="User control Admin\ucTinnhanAd.resx">
       <DependentUpon>ucTinnhanAd.cs</DependentUpon>

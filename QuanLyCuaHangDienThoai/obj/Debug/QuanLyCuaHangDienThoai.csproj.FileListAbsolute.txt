@@ -145,3 +145,8 @@ D:\ky 3\giao diện\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHang
 D:\ky 3\giao diện\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHangDienThoai.UcDanhsachsanpham.resources
 D:\ky 3\giao diện\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHangDienThoai.User_control_Khach_hang.UcGiohang.resources
 D:\ky 3\giao diện\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHangDienThoai.User_control_Khach_hang.UcKhuyenmai.resources
+D:\LTWIN\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHangDienThoai.User_control_Khach_hang.UcDanhsachsanpham.resources
+D:\LTWIN\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHangDienThoai.User_control_Khach_hang.UcGiohang.resources
+D:\LTWIN\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHangDienThoai.User_control_Khach_hang.UcKhuyenmai.resources
+D:\LTWIN\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHangDienThoai.User_control_Admin.BaoHanh.resources
+D:\LTWIN\GiaoDien_Ver4\QuanLyCuaHangDienThoai\obj\Debug\QuanLyCuaHangDienThoai.User_control_Admin.ucLienHe.resources
